@@ -103,6 +103,12 @@ $endif$
 $endif$
 $endfor$
 
+\section{awards}
+
+$for(awards)$
+$awards$\\[.15cm]
+$endfor$
+
 \section{grants}
 
 $for(grants)$
@@ -116,18 +122,11 @@ $for(invited_talk)$
 $endfor$
 
 
-\section{workshops}
-
-$for(workshop)$
-``$workshop.title$.''
-$if(workshop.host)$$workshop.host$, $endif$$workshop.place$.
-$workshop.date$.\\[.15cm]
-$endfor$
-
 \section{conference talks}
 
 $for(conference)$
 ``$conference.title$.''
+$if(conference.author)$$conference.author$, $endif$
 $if(conference.host)$$conference.host$, $endif$
 $conference.place$.
 $conference.date$.\\[.15cm]
