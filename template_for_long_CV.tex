@@ -156,7 +156,7 @@ $for(media_coverage)$
 $if(media_coverage.citekey)$
 \fullcite{$media_coverage.citekey$}\\
 $else$
-$media_coverage.title$
+$media_coverage.title$ -  \textit{$media_coverage.journal$}, $media_coverage.date$\\[.15cm]
 $endif$
 $endfor$
 

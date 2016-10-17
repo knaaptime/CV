@@ -11,10 +11,10 @@ bibliography: /Users/knaaptime/dropbox/academic/references/library.bib
 
 appointment:
   -
-    place: Enterprise Community Partners
+    place: Enterprise Community Partners, Inc.
     items:
       -
-        item: Bart Harvey Research Fellow
+        item: Bart Harvey Postdoctoral Research Fellow
         date: 2016–2017
 
   -
@@ -58,7 +58,7 @@ publication:
 
   -
      title: 'Opportunity for Whom? The Diverse Definitions of Neighborhood Opportunity in Baltimore'
-     author: 'Willow Lung-Amam, Elijah Knaap, Nick Finio, Casey Dawkins,  & Gerrit Knaap'
+     author: 'Willow Lung-Amam, Elijah Knaap, Nick Finio, Casey Dawkins, & Gerrit Knaap'
      journal: 'City & Community'
      date: "Under Review"
      academic: true
@@ -68,17 +68,18 @@ publication:
   -
     citekey: knaap2016polycentrism
     title: "Polycentrism as a sustainable development strategy: empirical analysis from the state of Maryland"
+    author: "Elijah Knaap et al"
     journal: "Journal of Urbanism: International Research on Placemaking and Urban Sustainability"
     academic: true
     twopage: true
     peer_reviewed: true
   -
-    citekey: pendall2015driving
+    #citekey: pendall2015driving
+    author: Rolf Pendall, Christopher Hayes, Arthur Taz George, Zach Mcdade, Casey Dawkins, Jae Sik Jeon, Elijah Knaap, Evelyn Blumenberg, Gregory Pierce, Michael Smart
+    title: "Driving to Opportunities: Voucher Users, Cars, and Movement to Sustainable Neighborhoods"
     academic: true
-    twopage: true
-  -
-    citekey: Pendall2014
-    academic: true
+    journal: Cityscape
+    journal_info: Vol 17, Issue 2
     twopage: true
 
   -
@@ -92,32 +93,72 @@ publication:
     peer_reviewed: true
 
   -
-    date: June 2016-Present
-    url: knaaptime.com
-    title: Sandtown and Spatial Mismatch
-    description: Personal Blog publishing original research and discussion urban studies, housing policy, and  data visualization
+    #citekey: Pendall2014
+    title: "Driving to Opportunity : Understanding the links among transportation access, residential outcomes, and economic opportunity for housing voucher recipients"
+    author: Rolf Pendall, Christopher Hayes, Arthur Taz George, Zach Mcdade, Casey Dawkins, Jae Sik Jeon, Elijah Knaap, Evelyn Blumenberg, Gregory Pierce, Michael Smart
+    journal: Urban Institute
+    journal_info: Technical Report, Washington D.C.
     academic: true
+    twopage: true
+
+  -
+    date: "May 2016-Present"
+    url: "knaaptime.com/projects/spatial-mismatch"
+    title: "Sandtown and Spatial Mismatch"
+    description: "Personal blog publishing original research and discussion in urban studies, housing policy, and data visualization"
+    public: true
     blog: true
-    twopage: false
+
+  -
+    date: "December 2015-Present"
+    url: "knaaptime.com/projects/opportunity"
+    title: "Assisted Housing and Spatial Opportunity"
+    description: "Personal blog publishing original research and discussion in urban studies, housing policy, and data visualization"
+    public: true
+    blog: true
 
 invited_talk:
-  -
-    date: November 12, 2015
-    title: "Historical Data Visualization"
-    host: Institute for Quantitative Theory and Methods Data Visualization speaker series
-    place: Emory University
-    twopage: false
-  -
-    date: May 11, 2015
-    title: "Plot Arceology"
-    host: Literary Lab
-    place: Stanford University
 
+  -
+    date: May 4, 2016
+    title: "The Geography of Neighborhood Change: Poverty, Immigration and Gentrification"
+    host: Makeover Montgomery 3
+    place: Balancing Change in America's Suburbs
+    twopage: true
+
+  -
+    date: October 18, 2014
+    title: "The Promise and Challenge of Equitable Transit-Oriented Development in Diverse Suburbs"
+    host: "Transit, Development, and Forme Urbaine: Washington et Paris"
+    place: Washington, DC
+    twopage: true
+  -
+    date: March 14, 2015
+    title: "Retail Location and Transit: An Econometric Examination of Retail Location in Prince George’s and Montgomery County"
+    host: "Transit, Development, and Forme Urbaine: Washington et Paris"
+    place: Paris, France
+    twopage: true
 
 conference:
 -
+  title: "Who Moves to Opportunity? Residential Sorting Models from a Unique Housing Mobility Program in Baltimore"
+  author: "Elijah Knaap"
+  host: Association of Collegiate Schools of Planning
+  place: Portland, Oregon
+  date: November, 2016
+  twopage: true
+
+-
+  title: "Regional Planning, Access to Opportunity, & Freddie Gray: Lessons from Baltimore"
+  author: "Gerrit Knaap, Elijah Knaap, Nick Finio, Casey Dawkins, Willow Lung-Amam"
+  host: Association of Collegiate Schools of Planning
+  place: Portland, Oregon
+  date: November, 2016
+  twopage: true
+
+-
   title: "Opportunity, Transportation, and Neighborhood Choice: A Quantitative Examination of Housing Voucher Use in Baltimore"
-  author: Elijah Knaap
+  author: "Elijah Knaap"
   host: Association of Collegiate Schools of Planning
   place: Houston, Texas
   date: October, 2015
@@ -131,14 +172,14 @@ conference:
   twopage: true
 -
   title: "Improving Social and Economic Equity in Maryland"
-  author:
+  author: "Chao Liu, Elijah Knaap & Gerrit Knaap"
   host: 14th Annual New Partners for Smart Growth Conference Tech Fair
   place: Baltimore, Maryland
   date: January 3, 2015
   twopage: true
 -
   title: "Trajectories of Neighborhood Attainment: Evidence from MTO in Baltimore"
-  author: Elijah Knaap
+  author: "Elijah Knaap"
   host: Association of Collegiate Schools of Planning
   place: Philadelphia, Pennsylvania
   date: October, 2014
@@ -217,24 +258,30 @@ conference:
   twopage: true
 
 teaching:
+
 -
-  title: "Urban Planning Technology"
+  title: "Intermediate Geographic Information Systems; Co-Taught with Chao Liu"
+  date: Spring 2014
+  type: Graduate
+
+-
+  title: "Urban Planning Technology; Co-Taught with Chao Liu"
   date: Fall 2014
   type: Graduate
+
 -
-  title: "Intermediate Geographic Information Systems"
-  date: Spring 2015
+  title: "Urban Planning Technology; Co-Taught with Chao Liu"
+  date: Spring 2013
   type: Graduate
-
-
 
 media_coverage:
 -
   author: "Misra, Tanvi"
   title: "Baltimore's Housing Voucher Program Almost Gets It Right"
   url: "http://www.citylab.com/housing/2016/01/baltimore-affordable-housing-voucher-opportunity/421722/"
-  journal: "Citylab"
+  journal: "CityLab"
   date: "January 5, 2016"
+
 -
   author: "Lung-Amam, Willow & Knaap, Eli"
   title: "Defining 'opportunity' in Baltimore"
@@ -264,25 +311,12 @@ service:
       twopage: true
 
 
--
-  type: "Service to the Department and University"
-  gigs:
-    -
-      item:  Graduate Committee, Northeastern University History Department
-      date: 2014-16
-    -
-      item:  Faculty Search Committee, Northeastern University
-      date: 2015-16
-    -
-      item:  Undergraduate Research Committee, Northeastern University College of Social Sciences and Humanities
-      date: 2014
-
 competencies:
 -
   type: Computing Platforms
   items:
-    - "Substantial experience (could lead workshops): ArcGIS/QGIS, R, Python, HTML5/CSS, Unix administration."
-    - "Research/collaborative use: Javascript, MySQL, D3, LaTex, JQuery, STATA, SPSS."
+    - "Substantial experience (could lead workshops): ArcGIS/QGIS, R, Python, HTML5/CSS, Unix administration"
+    - "Research/collaborative use: Javascript, MySQL, D3, LaTex, JQuery, STATA, SPSS, Git, Shell scripting"
 -
   type: Planning Support Systems
   items: CommunityViz, UrbanSim, EnvisionTomorrow, SILO
