@@ -24,7 +24,7 @@ appointment:
         date: 2016 - Present
 
   -
-    place: University of Maryland National Center for Smart Growth
+    place: University of Maryland National Center for Smart Growth Research and Education
     items:
       -
         item: Spatial Research Coordinator
@@ -42,7 +42,7 @@ education:
       -
         text: 'Dissertation: "The Spatial Structure of Opportunity & The Location Dynamics of Housing Mobility Programs"'
         twopage: true
-      - 'Committee: Casey Dawkins (advisor), Fred Ducca, Willow Lung-Amam, Kris Marsh, Rolf Pendall'
+      - text: 'Committee: Casey Dawkins (advisor), Fred Ducca, Willow Lung-Amam, Kris Marsh, Rolf Pendall'
   -
     place: University of Maryland
     item: Master of Community Planning
