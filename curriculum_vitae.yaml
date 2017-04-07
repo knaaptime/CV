@@ -4,25 +4,31 @@ address:
     - University of Maryland
     - College Park, MD 20740
 email: ek@knaaptime.com
-twitter: knaaptime
+twitter: "@knaaptime"
 www: knaaptime.com
 tel: 240.441.2619
 bibliography: /Users/knaaptime/dropbox/academic/references/library.bib
 
 appointment:
   -
+    place: University of Maryland, Dept. of Urban Studies and Planning & School of Information Studies
+    items:
+      -
+        item: Adjunct Faculty
+        date: 2017 - Present
+  -
     place: Enterprise Community Partners, Inc.
     items:
       -
         item: Bart Harvey Postdoctoral Research Fellow
-        date: 2016–2017
+        date: 2016 - Present
 
   -
     place: University of Maryland National Center for Smart Growth
     items:
       -
         item: Spatial Research Coordinator
-        date: August 2013–Present
+        date: August 2013–2016
       -
         item: Graduate Research Assistant
         date: August 2011–2013
@@ -51,7 +57,7 @@ publication:
     title: "The *Cartography* of Opportunity"
     author: "Elijah Knaap"
     journal: "Housing Policy Debate"
-    date: "Under Review"
+    date: "Conditionally Accepted"
     academic: true
     twopage: true
     peer_reviewed: true
@@ -74,7 +80,7 @@ publication:
     twopage: true
     peer_reviewed: true
   -
-    #citekey: pendall2015driving
+    citekey: pendall2015driving
     author: Rolf Pendall, Christopher Hayes, Arthur Taz George, Zach Mcdade, Casey Dawkins, Jae Sik Jeon, Elijah Knaap, Evelyn Blumenberg, Gregory Pierce, Michael Smart
     title: "Driving to Opportunities: Voucher Users, Cars, and Movement to Sustainable Neighborhoods"
     academic: true
@@ -83,6 +89,7 @@ publication:
     twopage: true
 
   -
+    citekey: Mishra2014
     date: March 2015
     author: "Sabyasachee Mishra, Timothy F. Welch, Paul M. Torrens, Cheng Fu, Haojie Zhu, & Eli Knaap"
     title: "A tool for measuring and visualizing connectivity of transit stop, route and transfer center in a multimodal transportation network"
@@ -100,22 +107,6 @@ publication:
     journal_info: Technical Report, Washington D.C.
     academic: true
     twopage: true
-
-  -
-    date: "May 2016-Present"
-    url: "knaaptime.com/projects/spatial-mismatch"
-    title: "Sandtown and Spatial Mismatch"
-    description: "Personal blog publishing original research and discussion in urban studies, housing policy, and data visualization"
-    public: true
-    blog: true
-
-  -
-    date: "December 2015-Present"
-    url: "knaaptime.com/projects/opportunity"
-    title: "Assisted Housing and Spatial Opportunity"
-    description: "Personal blog publishing original research and discussion in urban studies, housing policy, and data visualization"
-    public: true
-    blog: true
 
 invited_talk:
 
@@ -140,6 +131,7 @@ invited_talk:
     twopage: true
 
 conference:
+
 -
   title: "Who Moves to Opportunity? Residential Sorting Models from a Unique Housing Mobility Program in Baltimore"
   author: "Elijah Knaap"
@@ -258,6 +250,10 @@ conference:
   twopage: true
 
 teaching:
+-
+  title: "Smart Cities and Urban Data Science"
+  date: Spring 2017
+  type: Graduate
 
 -
   title: "Intermediate Geographic Information Systems; Co-Taught with Chao Liu"
@@ -315,8 +311,8 @@ competencies:
 -
   type: Computing Platforms
   items:
-    - "Substantial experience (could lead workshops): ArcGIS/QGIS, R, Python, HTML5/CSS, Unix administration"
+    - "Substantial experience: R, Python, ArcGIS/QGIS, HTML5/CSS"
     - "Research/collaborative use: Javascript, MySQL, D3, LaTex, JQuery, STATA, SPSS, Git, Shell scripting"
 -
   type: Planning Support Systems
-  items: CommunityViz, UrbanSim, EnvisionTomorrow, SILO
+  items: Urban Data Science Toolkit, CommunityViz, EnvisionTomorrow+, SILO
