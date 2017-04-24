@@ -1,6 +1,7 @@
 \documentclass[11pt, letter]{article}
 
-% This is a tex file to make Ben Schmidt's CV.
+% This is a tex file to make Eli Knaap's CV.
+% It is modified from Ben Schmidt's original template.
 % The content is 
 
 \usepackage{jk-vita}
@@ -43,7 +44,7 @@ $endfor$
 \section{appointments}
 
 $for(appointment)$
-\subsection{\bf{$appointment.place$}}
+\subsection{$appointment.place$}
 $for(appointment.items)$
  \hspace{0.35in} $appointment.items.item$. $appointment.items.date$. \\
 $endfor$
