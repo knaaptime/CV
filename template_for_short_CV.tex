@@ -6,6 +6,11 @@
 \usepackage{jk-vita}
 \usepackage[notes,natbib,isbn=false,backend=biber,url=false,numbermonth=true]{biblatex-chicago}
 
+%% Custom hanging indent for vita items
+\def\ind{\hangindent=1 true cm\hangafter=1 \noindent}
+%\def\ind{\hangindent=18pt\hangafter=1 \noindent}
+\def\labelitemi{~}
+\renewcommand{\labelitemii}{~}
 %\usepackage{biblatex}
 
 % Your biblatex file is likely somewhere else.
@@ -38,7 +43,7 @@ $endfor$
 $for(appointment)$
 \subsection{$appointment.place$}
 $for(appointment.items)$
-$appointment.items.item$. $appointment.items.date$. \\
+ \hspace{0.35in} $appointment.items.item$. $appointment.items.date$. \\
 $endfor$
 $endfor$
 
@@ -60,10 +65,10 @@ $for(publication)$
 $if(publication.academic)$
 $if(publication.twopage)$
 $if(publication.citekey)$
-\cite{$publication.citekey$}.\\[.15cm]
+\ind \cite{$publication.citekey$}.\\[.15cm]
 $else$
 $if(publication.author)$$publication.author$,$endif$
-``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.15cm]
+\ind ``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.15cm]
 % End of block for academic publications
 $endif$ 
 $endif$
@@ -73,7 +78,7 @@ $if(publication.public)$
 $else$
 % Raise an error if some publication is neither public nor academic;
 % otherwise I'll lose some out of stupidity.
-\error{$publication.title$}
+\error \ind{$publication.title$}
 $endif$
 $endif$
 $endfor$
@@ -84,7 +89,7 @@ $for(publication)$
 $if(publication.twopage)$
 $if(publication.public)$
 $if(publication.citekey)$
-\cite{$publication.citekey$}.\\[.15cm]
+\ind \cite{$publication.citekey$}.\\[.15cm]
 $else$
 $if(publication.author)$$publication.author$,$endif$
 ``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.15cm]
@@ -104,7 +109,7 @@ $endfor$
 
 $for(invited_talk)$
 $if(invited_talk.twopage)$
-``$invited_talk.title$.'' $if(invited_talk.host)$$invited_talk.host$, $endif$$invited_talk.place$. $invited_talk.date$.\\[.15cm]
+\ind ``$invited_talk.title$.'' $if(invited_talk.host)$$invited_talk.host$, $endif$$invited_talk.place$. $invited_talk.date$.\\[.15cm]
 $endif$
 $endfor$
 
@@ -112,7 +117,7 @@ $endfor$
 
 $for(conference)$
 $if(conference.twopage)$
-``$conference.title$.''
+\ind ``$conference.title$.''
 $if(conference.host)$$conference.host$, $endif$
 $conference.place$.
 $conference.date$.\\[.15cm]

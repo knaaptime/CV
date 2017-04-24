@@ -71,7 +71,7 @@ $endfor$
 \vspace{0.075in}
 \section{publications}
 
-\subsection{\it{Academic Publications}}
+\subsection{}
 
 $for(publication)$
 $if(publication.academic)$
@@ -90,20 +90,6 @@ $else$
 % otherwise I'll lose some out of stupidity.
 \error \ind{$publication.title$}
 $endif$
-$endif$
-$endfor$
-
-\subsection{\it{General Audience Publications}}
-
-$for(publication)$
-$if(publication.public)$
-$if(publication.citekey)$
-\ind \cite{$publication.citekey$}.\\[.15cm]
-$else$
-$if(publication.author)$$publication.author$,$endif$
-\ind ``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.15cm]
-$endif$
-% End of block for general publications
 $endif$
 $endfor$
 
