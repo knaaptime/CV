@@ -50,6 +50,8 @@ $for(appointment.items)$
 $endfor$
 $endfor$
 
+\vspace{0.09in}
+
 \section{education}
 % Education uses a different field called ``items.''
 $for(education)$
@@ -69,18 +71,19 @@ $endfor$
 
 % A little wonky. I want my publications divided up based on tags.
 % (Yes, it would be better to just do this with bib file). That's for later.
-\vspace{0.075in}
+\vspace{0.12in}
+
 \section{publications}
 
-\subsection{}
+\subsection{Academic Publications}
 
 $for(publication)$
 $if(publication.academic)$
 $if(publication.citekey)$
-\ind \cite{$publication.citekey$}.\\[.15cm]
+\ind \cite{$publication.citekey$}.\\[.2cm]
 $else$
 $if(publication.author)$$publication.author$,$endif$
-\ind ``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.15cm]
+\ind ``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.2cm]
 % End of block for academic publications
 $endif$ 
 $else$
@@ -93,6 +96,27 @@ $else$
 $endif$
 $endif$
 $endfor$
+
+
+\subsection{Manuscripts in Progress}
+
+$for(publication)$
+$if(publication.twopage)$
+$if(publication.public)$
+$if(publication.citekey)$
+\ind \cite{$publication.citekey$}.\\[.2cm]
+$else$
+$if(publication.author)$$publication.author$,$endif$
+\ind ``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.2cm] 
+$endif$
+% End of block for general publications
+$endif$
+$endif$
+$endfor$
+
+\vspace{0.09in}
+
+
 
 \section{awards}
 

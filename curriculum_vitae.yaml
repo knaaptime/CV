@@ -53,6 +53,46 @@ education:
     date: May 2011
 
 publication:
+
+  -
+    title: "Machines Learn the Chicago School: A Spatiotemporal Markov Model of Gentrification & Neighborhood Change"
+    author: "Elijah Knaap & Nicholas Finio"
+    journal: "In Progress"
+    academic: false
+    twopage: true
+    peer_reviewed: false
+    public: true
+
+
+  -
+    title: "Who Moves to Opportunity? Spatial Returns to Housing Assistance and the Effect of Specialized Mobility Programs"
+    author: "Elijah Knaap"
+    journal: "In Progress"
+    academic: false
+    twopage: true
+    peer_reviewed: false
+    public: true
+
+
+  -
+    title: "Housing Assistance in Black and White: A Discrete Choice Model of Residential Sorting in Housing Voucher Programs"
+    author: "Elijah Knaap"
+    journal: "In Progress"
+    academic: false
+    twopage: true
+    peer_reviewed: false
+    public: true
+
+  -
+    title: "The Promise and Challenge of Equitable Transit-Oriented Development in Diverse Suburbs"
+    author: "Willow Lung-Amam, Rolf Pendall & Elijah Knaap"
+    journal: "In Progress"
+    academic: false
+    twopage: true
+    peer_reviewed: false
+    public: true
+
+
   -
     title: "The *Cartography* of Opportunity"
     author: "Elijah Knaap"

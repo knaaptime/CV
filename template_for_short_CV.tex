@@ -83,7 +83,7 @@ $endif$
 $endif$
 $endfor$
 
-\subsection{General Audience Publications}
+\subsection{Manuscripts in Progress}
 
 $for(publication)$
 $if(publication.twopage)$
@@ -92,7 +92,7 @@ $if(publication.citekey)$
 \ind \cite{$publication.citekey$}.\\[.15cm]
 $else$
 $if(publication.author)$$publication.author$,$endif$
-``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.15cm]
+\ind ``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.15cm]
 $endif$
 % End of block for general publications
 $endif$
