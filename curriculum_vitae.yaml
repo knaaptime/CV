@@ -315,6 +315,10 @@ conference:
 
 teaching:
 -
+  title: "GIS for Urban Planners"
+  date: Fall 2017
+  type: Graduate
+-
   title: "Smart Cities and Urban Data Science"
   date: Spring 2017
   type: Graduate
@@ -343,7 +347,7 @@ media_coverage:
   date: "January 5, 2016"
 
 -
-  author: "Lung-Amam, Willow & Knaap, Eli"
+  author: "Lung-Amam, Willow & Eli Knaap"
   title: "Defining 'opportunity' in Baltimore"
   url: "http://www.baltimoresun.com/news/opinion/oped/bs-ed-baltimore-opportunity-20150803-story.html"
   journal: "The Baltimore Sun"
