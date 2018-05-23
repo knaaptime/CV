@@ -6,7 +6,7 @@
 
 \usepackage[utf8]{inputenc}
 
-\usepackage{rz-vita}
+\usepackage{ek-vita}
 %\usepackage[english]{isodate}
 %\printdayoff\numdate
 \def\printdate#1{\xprintdate#1-}
@@ -52,20 +52,24 @@ $endfor$
 
 
 \section{appointments}
-
 $for(appointment)$
 \subsection{$appointment.place$}
+\vspace*{-0.15cm}
+
 $for(appointment.items)$
- \hspace{0.35in} $appointment.items.item$. $appointment.items.date$. \\
+ $if(appointment.items.dept)$
+ \hspace{0.2in} $appointment.items.dept$ \\
+ $endif$
+ \hspace{0.3in} $appointment.items.position$. $appointment.items.date$. \\
 $endfor$
 $endfor$
 
-\vspace{0.09in}
 
 \section{education}
 % Education uses a different field called ``items.''
 $for(education)$
-\subsection{$education.place$, $education.item$, $education.date$}
+\subsection{$education.degree$  \textnormal{\hspace*{\fill}$education.place$, $education.date$}}
+
 $if(education.info)$
 $for(education.info)$
 $if(education.info.text)$

@@ -17,53 +17,56 @@ csl: apa-cv.csl
 appointment:
 
   -
-    place: University of California-Riverside, School of Public Policy, Center for Geospatial Sciences
+    place: University of California-Riverside
     items:
       -
-        item: Postdoctoral Scholar
+        position: Postdoctoral Scholar
+        dept: School of Public Policy & Center for Geospatial Sciences
         date: 2018 - Present
   -
-    place: University of Illinois at Chicago, Dept. of Urban Planning and Policy
+    place: University of Illinois at Chicago
     items:
       -
-        item: Visiting Assistant Professor & Postdoctoral Research Associate
+        position: Visiting Assistant Professor & Postdoctoral Research Associate
+        dept:  Dept. of Urban Planning and Policy
         date: 2017 - 2018
   -
-    place: University of Maryland, Dept. of Urban Studies and Planning & School of Information Studies
+    place: University of Maryland 
     items:
       -
-        item: Adjunct Faculty
+        position: Adjunct Professor
+        dept: Dept. of Urban Studies and Planning & School of Information Studies
         date: 2017
   -
     place: Enterprise Community Partners, Inc.
     items:
       -
-        item: Bart Harvey Postdoctoral Research Fellow
+        position: Bart Harvey Postdoctoral Research Fellow
         date: 2016 - 2017
 
   -
-    place: University of Maryland National Center for Smart Growth Research and Education
+    place: University of Maryland
     items:
       -
-        item: Spatial Research Coordinator
-        date: August 2013–2016
+        position: Spatial Research Coordinator
+        dept: National Center for Smart Growth Research and Education
+        date: 2013–2016
       -
-        item: Graduate Research Assistant
-        date: August 2011–2013
+        position: Graduate Research Assistant
+        date: 2011–2013
 
 education:
   -
+    degree: Ph.D., Urban Studies and Planning
     place: University of Maryland
-    item: Ph.D. in Urban Studies and Planning
-    date: October 2016
-
+    date: Dec 2016
   -
+    degree: M.A., Community Planning
     place: University of Maryland
-    item: Master of Community Planning
     date: May 2013
   -
+    degree: B.A., Sociology
     place: University of Maryland
-    item: B.A. Sociology
     date: May 2011
 
 publication:
@@ -162,7 +165,12 @@ publication:
     twopage: true
     academic: true
     peer_reviewed: true
-
+    
+  -
+    citekey: mishra2014locating
+    academic: true
+    peer_reviewed: true
+    
   -
     citekey: Pendall2014
     title: "Driving to Opportunity : Understanding the links among transportation access, residential outcomes, and economic opportunity for housing voucher recipients"
@@ -171,9 +179,7 @@ publication:
     journal_info: Technical Report, Washington D.C.
     academic: true
     twopage: true
-  -
-    citekey: mishra2014locating
-    academic: true
+
 
 invited_talk:
 
