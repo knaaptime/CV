@@ -2,10 +2,17 @@
 
 % This is a tex file to make Eli Knaap's CV.
 % It is modified from Ben Schmidt's original template.
-% The content is 
+% The content is
 
-\usepackage{jk-vita}
-\usepackage[notes,natbib,isbn=false,backend=biber,url=false,numbermonth=true]{biblatex-chicago}
+\usepackage[utf8]{inputenc}
+
+\usepackage{rz-vita}
+%\usepackage[english]{isodate}
+%\printdayoff\numdate
+\def\printdate#1{\xprintdate#1-}
+\def\xprintdate#1-#2-#3-{#1}
+\def\daterange#1#2{\xprintdate#1---\xprintdate#2-}
+
 
 %% Custom hanging indent for vita items
 \def\ind{\hangindent=1 true cm\hangafter=1 \noindent}
@@ -31,6 +38,9 @@ $endfor$
 \email{$email$}
 \tel{$tel$}
 \twitter{$twitter$}
+\orcid{$orcid$}
+\github{$github$}
+%\googlescholar{$scholar$}
 \subject{}
 
 
@@ -85,7 +95,7 @@ $else$
 $if(publication.author)$$publication.author$,$endif$
 \ind ``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.2cm]
 % End of block for academic publications
-$endif$ 
+$endif$
 $else$
 
 $if(publication.public)$
@@ -97,6 +107,7 @@ $endif$
 $endif$
 $endfor$
 
+\vspace{0.05in}
 
 \subsection{Manuscripts in Progress}
 
@@ -107,7 +118,7 @@ $if(publication.citekey)$
 \ind \cite{$publication.citekey$}.\\[.2cm]
 $else$
 $if(publication.author)$$publication.author$,$endif$
-\ind ``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.2cm] 
+\ind ``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.2cm]
 $endif$
 % End of block for general publications
 $endif$

@@ -1,33 +1,21 @@
 name: Elijah Knaap
 address:
-    - Center for Geospatial Sciences
-    - Suite 159, Tomas Rivera Library
-    - 900 University Ave
-    - Riverside, CA 92505
+    - Department of Urban Planning and Policy
+    - 412 South Peoria Street, 138 CUPPAH (MC 350)
+    - Chicago, IL 60607
 email: ek@knaaptime.com
 twitter: "@knaaptime"
 www: knaaptime.com
 tel: 240.441.2619
-orcid: 0000-0001-7520-2238
-github: knaaptime
-bibliography: knaap.bib
-csl: apa-cv.csl
-
+bibliography: /Users/knaaptime/Documents/library.bib
 
 appointment:
-
-  -
-    place: University of California-Riverside, School of Public Policy, Center for Geospatial Sciences
-    items:
-      -
-        item: Postdoctoral Scholar
-        date: 2018 - Present
   -
     place: University of Illinois at Chicago, Dept. of Urban Planning and Policy
     items:
       -
         item: Visiting Assistant Professor & Postdoctoral Research Associate
-        date: 2017 - 2018
+        date: 2017 - Present
   -
     place: University of Maryland, Dept. of Urban Studies and Planning & School of Information Studies
     items:
@@ -56,14 +44,18 @@ education:
     place: University of Maryland
     item: Ph.D. in Urban Studies and Planning
     date: October 2016
-
+    info:
+      -
+        text: 'Dissertation: "The Spatial Structure of Opportunity & The Location Dynamics of Housing Mobility Programs"'
+        twopage: true
+      - text: 'Committee: Casey Dawkins (advisor), Fred Ducca, Willow Lung-Amam, Kris Marsh, Rolf Pendall'
   -
     place: University of Maryland
     item: Master of Community Planning
     date: May 2013
   -
     place: University of Maryland
-    item: B.A. Sociology
+    item: M.A. Sociology
     date: May 2011
 
 publication:
@@ -98,31 +90,13 @@ publication:
     public: true
 
   -
-    title: "Metropolitan Planning in a Vacuum"
-    author: "Nicholas Finio, Gerrit Knaap, Willow Lung-Amam, Casey Dawkins, & Elijah Knaap"
-    journal: "Journal of Urban Affairs"
-    date: "Under Review"
-    academic: true
-    twopage: true
-    peer_reviewed: true
-
-  -
-    title: "Mi Casa no es Su Casa: Transit-Induced Gentrification and the Fight for Equitable Development in an Inner-Ring, Immigrant Suburb."
+    title: "The Promise and Challenge of Equitable Transit-Oriented Development in Diverse Suburbs"
     author: "Willow Lung-Amam, Rolf Pendall & Elijah Knaap"
-    journal: "Journal of Planning Education & Research"
-    date: "Under Review"
-    academic: true
+    journal: "In Progress"
+    academic: false
     twopage: true
-    peer_reviewed: true
-
-  -
-    title: "Opportunity for Whom? The Diverse Definitions of Neighborhood Opportunity in Baltimore"
-    author: "Willow Lung-Amam, Elijah Knaap, Casey Dawkins & Gerrit Knaap"
-    journal: "City & Community"
-    date: "Forthcoming"
-    academic: true
-    twopage: true
-    peer_reviewed: true
+    peer_reviewed: false
+    public: true
 
 
   -
@@ -136,7 +110,7 @@ publication:
     peer_reviewed: true
 
   -
-    citekey: Knaap2016
+    citekey: knaap2016polycentrism
     title: "Polycentrism as a sustainable development strategy: empirical analysis from the state of Maryland"
     author: "Elijah Knaap et al"
     journal: "Journal of Urbanism: International Research on Placemaking and Urban Sustainability"
@@ -153,7 +127,7 @@ publication:
     twopage: true
 
   -
-    citekey: Mishra2014
+    #citekey: Mishra2014
     date: March 2015
     author: "Sabyasachee Mishra, Timothy F. Welch, Paul M. Torrens, Cheng Fu, Haojie Zhu, & Eli Knaap"
     title: "A tool for measuring and visualizing connectivity of transit stop, route and transfer center in a multimodal transportation network"
@@ -164,16 +138,22 @@ publication:
     peer_reviewed: true
 
   -
-    citekey: Pendall2014
+    #citekey: Pendall2014
     title: "Driving to Opportunity : Understanding the links among transportation access, residential outcomes, and economic opportunity for housing voucher recipients"
     author: Rolf Pendall, Christopher Hayes, Arthur Taz George, Zach Mcdade, Casey Dawkins, Jae Sik Jeon, Elijah Knaap, Evelyn Blumenberg, Gregory Pierce, Michael Smart
     journal: Urban Institute
     journal_info: Technical Report, Washington D.C.
     academic: true
     twopage: true
+
   -
-    citekey: mishra2014locating
-    academic: true
+     title: 'Opportunity for Whom? The Diverse Definitions of Neighborhood Opportunity in Baltimore'
+     author: 'Willow Lung-Amam, Elijah Knaap, Nick Finio, Casey Dawkins, & Gerrit Knaap'
+     journal: 'City & Community'
+     date: "Under Review"
+     academic: true
+     twopage: true
+     peer_reviewed: true
 
 invited_talk:
 

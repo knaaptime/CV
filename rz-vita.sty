@@ -6,7 +6,6 @@
 %% This file contains elements from:
 %%  - http://robjhyndman.com/research/cv.sty
 %%  - http://kjhealy.github.com/kjh-vita
-%%  - https://github.com/rzach/cv-zach
 %%
 
 %% ------------------------------------------------------------------------
@@ -18,6 +17,7 @@
 \usepackage{fontawesome}
 \usepackage[compact,small,sf,bf]{titlesec}
 \usepackage{etaremune}
+\usepackage[notmath]{sansmathfonts}
 
 %% ------------------------------------------------------------------------
 %%  Git version tracking
@@ -41,14 +41,9 @@
 \definecolor{ImperialBlue}{rgb}{0.082,0.416,0.608}
 \definecolor{ImperialLightBlue}{rgb}{0.545,0.682,0.8}
 
-%% Choose fonts for use with xelatex
-%% Minion and Myriad are widely available, from Adobe.
-%% Pragmata is available to buy at http://www.fsd.it/fonts/pragma.htm
-%% and is worth every penny. Any good monospace font will work fine, though.
-%% Consolas or inconsolata are good alternatives.
-\setromanfont[Mapping={tex-text},Numbers={OldStyle},Ligatures={Common}]{Minion Pro}
-\setsansfont[Mapping=tex-text,Colour=ImperialBlue]{Myriad Pro}
-\setmonofont[Mapping=tex-text,Scale=0.9]{Inconsolata} % Consolas, Pragmata, Lucida Console
+\setromanfont[Mapping={tex-text}]{Spectral}
+\setsansfont[Mapping=tex-text,Colour=ImperialBlue]{Sunflower Light}
+\setmonofont[Mapping=tex-text,Scale=0.9]{Roboto Mono} % Consolas, Pragmata, Lucida Console
 
 %% ------------------------------------------------------------------------
 %% Header and footer
@@ -93,7 +88,7 @@
 \def\tel#1{\def\@tel{#1}}
 \def\orcid#1{\def\@orcid{#1}}
 \def\github#1{\def\@github{#1}}
-\def\googlescholar#1{\def\@googlescholar{#1}}
+%\def\googlescholar#1{\def\@googlescholar{#1}}
 \def\postnoms#1{\def\@postnoms{#1}}
 \def\address#1{\def\@address{#1}}
 \def\subject#1{\def\@subject{#1}}
@@ -105,15 +100,16 @@
 \date{} % not used (revision control instead)
 
 %% hyperlinks
+\hypersetup{colorlinks,
+    allcolors=Blue}
+
 \AtBeginDocument{%
   \def\keywords{\@name, Vita, CV, Resume, \@subject}
   \hypersetup{xetex,
-    colorlinks=true,
-    urlcolor=ImperialBlue,
     plainpages=false,
     pdfpagelabels,
     bookmarksnumbered,
-    pdftitle={Elijah Knaap: Curriculum Vita},
+    pdftitle={Elijah Knaap: Curriculum Vitae},
     pagebackref,
     pdfauthor={\@name},
     pdfkeywords={\keywords}
@@ -136,9 +132,10 @@
     {\scriptsize \texttt{\@tel \, \faPhone} } \\
     {\scriptsize  \texttt{\href{mailto:\@email}{\@email}} \, \faEnvelope} \\
     {\scriptsize  \texttt{\href{http://\@www}{\@www}} \, \faGlobe} \\
-    {\scriptsize  \texttt{\href{https://github.com/\@github}{\@github}} \, \fagithub} \\
-    {\scriptsize  \texttt{\href{http://twitter.com/\@twitter}{\@twitter} \, \faTwitter}} \\
-    {\scriptsize  \textsc{\href{https://scholar.google.ca/citations?user=\@googlescholar&hl=en}{Google Scholar}} \, \faGoogle} \\
+    {\scriptsize  \texttt{\href{https://twitter.com/\@twitter}{\@twitter} \, \faTwitter}} \\
+    {\scriptsize  \texttt{\href{https://github.com/\@github}{\@github}} \, \faGithub} \\
+    %{\scriptsize  \sffamily{\textsc{\href{https://scholar.google.ca/citations?user=\@googlescholar&hl=en}{Google Scholar}}} \, \faGoogle} \\
+
   \end{minipage}
 
   \bigskip
@@ -199,8 +196,14 @@
 %%   Bibliography formatting
 %% ------------------------------------------------------------------------
 
-% \usepackage[uniquename=init,dashed=false,doi=false,isbn=false,backend=biber]{biblatex-apa}
-\usepackage[notes,natbib,isbn=false,backend=biber,url=false,numbermonth=true]{biblatex-chicago}
+%\usepackage[uniquename=init,dashed=false,doi=false,isbn=false,backend=biber]{biblatex-chicago}
+% \usepackage[uniquename=init, isbn=false,backend=biber]{biblatex-apa}
+%\usepackage[bibstyle=authoryear,sorting=ydnt,dashed=false, backend=biber]{biblatex}
+%\usepackage[bibstyle=authoryear,natbib,isbn=false,backend=biber,url=false]{biblatex}
+%\usepackage[bibstyle=iest, citestyle=iest, isbn=false, backend=biber]{biblatex}
+%\usepackage[citestyle=authoryear,notes,natbib,isbn=false,backend=biber,url=false,numbermonth=true, maxbibnames=20]{biblatex-chicago}
+\usepackage[citestyle=verbose,bibstyle=apa,maxnames=20,natbib,isbn=false,sorting=ynt,backend=biber]{biblatex}
+
 
 \DeclareFieldFormat{url}{\url{#1}}
 \DeclareFieldFormat[article]{pages}{#1}
@@ -213,7 +216,6 @@
 \DeclareFieldFormat[inproceedings]{title}{#1}
 \DeclareFieldFormat{shorthandwidth}{#1}
 \DeclareFieldFormat{extrayear}{}
-
 
 
 % No dot before number of articles
@@ -238,24 +240,26 @@
 \makebibcategory{subpapers}{Submitted papers}
 \makebibcategory{curpapers}{Current projects}
 \makebibcategory{other}{Reviews, software \& other writing}
+\makebibcategory{abstracts}{Abstracts}
 
 \setlength{\bibitemsep}{2.5pt}
 \setlength{\bibhang}{.8cm}
 %\renewcommand{\bibfont}{\fontsize{12}{14}}
 
-\renewcommand*{\bibitem}{\addtocounter{papers}{1}\item \mbox{}\hskip-0.85cm\hbox to 0.85cm{\hfill\arabic{papers}.~~}}
+%\renewcommand*{\bibitem}{\addtocounter{papers}{1}\item \mbox{}\hskip-0.85cm\hbox to 0.85cm{\hfill\arabic{papers}.~~}}
+\renewcommand*{\bibitem}{\addtocounter{papers}{1}\item}
 \defbibenvironment{bibliography}
-{\list{}
+{\begin{etaremune}%\list{}
   {\setlength{\leftmargin}{\bibhang}%
    \setlength{\itemsep}{\bibitemsep}%
    \setlength{\parsep}{\bibparsep}}}
-{\endlist}
+{\end{etaremune}}
 {\bibitem}
 
 \newenvironment{publications}{\section{Publications}\label{papersstart}}%
 {\label{papersend}\addtocounter{sumpapers}{-1}\refstepcounter{sumpapers}\label{sumpapers}}
 
-\def\printbib#1{\printbibliography[category=#1,heading=#1]\lastref{sumpapers}}
+\def\printbibrz#1#2{\printbibliography[keyword={#1},heading=subbibnumbered,title={#2}]\lastref{sumpapers}}
 \renewcommand{\bibfont}{\normalfont\fontsize{11}{13.4}\rmfamily}
 % Counters for keeping track of papers
 \newcounter{papers}\setcounter{papers}{0}
@@ -292,4 +296,4 @@
 \clubpenalty = 10000
 \widowpenalty = 10000
 \setlist{itemsep=1pt}
-\setdescription{labelwidth=1.2cm,leftmargin=1.5cm,labelindent=1.5cm,font=\rm}
+\setdescription{labelwidth=.9cm,leftmargin=1.5cm,labelindent=0cm,font=\bf}
