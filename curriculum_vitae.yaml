@@ -22,27 +22,27 @@ appointment:
       -
         position: Postdoctoral Scholar
         dept: School of Public Policy & Center for Geospatial Sciences
-        date: 2018 - Present
+        date: 2018 –  
   -
     place: University of Illinois at Chicago
     items:
       -
         position: Visiting Assistant Professor & Postdoctoral Research Associate
         dept:  Dept. of Urban Planning and Policy
-        date: 2017 - 2018
+        date: 2017 – 2018
   -
     place: University of Maryland 
     items:
       -
         position: Adjunct Professor
         dept: Dept. of Urban Studies and Planning & School of Information Studies
-        date: 2017
+        date: 2016 – 2017
   -
     place: Enterprise Community Partners, Inc.
     items:
       -
         position: Bart Harvey Postdoctoral Research Fellow
-        date: 2016 - 2017
+        date: 2016 – 2017
 
   -
     place: University of Maryland
@@ -50,24 +50,24 @@ appointment:
       -
         position: Spatial Research Coordinator
         dept: National Center for Smart Growth Research and Education
-        date: 2013–2016
+        date: 2013 – 2016
       -
         position: Graduate Research Assistant
-        date: 2011–2013
+        date: 2011 – 2013
 
 education:
   -
-    degree: Ph.D., Urban Studies and Planning
+    degree: Ph.D.   Urban Studies and Planning
     place: University of Maryland
-    date: Dec 2016
+    date: 2013 – 2016
   -
-    degree: M.A., Community Planning
+    degree: M.A.    Community Planning
     place: University of Maryland
-    date: May 2013
+    date: 2011 – 2013
   -
-    degree: B.A., Sociology
+    degree: B.A.    Sociology
     place: University of Maryland
-    date: May 2011
+    date: 2006 – 2011
 
 publication:
 
@@ -341,26 +341,26 @@ conference:
 
 teaching:
 -
-  title: "GIS for Urban Planners"
+  title: "`UPP 461`: GIS for Urban Planners"
   date: Fall 2017
   type: Graduate
 -
-  title: "Smart Cities and Urban Data Science"
+  title: "`URSP 688Y`: Smart Cities and Urban Data Science"
   date: Spring 2017
   type: Graduate
 
 -
-  title: "Intermediate Geographic Information Systems; Co-Taught with Chao Liu"
+  title: "`URSP 688Q`: Intermediate GIS (Co-Taught with Chao Liu)"
   date: Spring 2014
   type: Graduate
 
 -
-  title: "Urban Planning Technology; Co-Taught with Chao Liu"
+  title: "`URSP 688G`: Urban Planning Technology; (Co-Taught with Chao Liu)"
   date: Fall 2014
   type: Graduate
 
 -
-  title: "Urban Planning Technology; Co-Taught with Chao Liu"
+  title: "`URSP 688G`: Urban Planning Technology; (Co-Taught with Chao Liu)"
   date: Spring 2013
   type: Graduate
 

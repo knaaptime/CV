@@ -54,13 +54,13 @@ $endfor$
 \section{appointments}
 $for(appointment)$
 \subsection{$appointment.place$}
-\vspace*{-0.15cm}
+\vspace*{-0.2cm}
 
 $for(appointment.items)$
  $if(appointment.items.dept)$
- \hspace{0.2in} $appointment.items.dept$ \\
+ \footnotesize{$appointment.items.dept$} \normalsize \\
  $endif$
- \hspace{0.3in} $appointment.items.position$. $appointment.items.date$. \\
+\hspace{0.25in} $appointment.items.position$\hspace*{\fill} $appointment.items.date$ \\
 $endfor$
 $endfor$
 
@@ -68,7 +68,7 @@ $endfor$
 \section{education}
 % Education uses a different field called ``items.''
 $for(education)$
-\subsection{$education.degree$  \textnormal{\hspace*{\fill}$education.place$, $education.date$}}
+\subsection{$education.degree$, \textnormal{$education.place$ \hspace*{\fill}$education.date$}}
 
 $if(education.info)$
 $for(education.info)$
@@ -165,7 +165,7 @@ $endfor$
 \section{courses taught}
 
 $for(teaching)$
-\ind ``$teaching.title$.'' $teaching.date$. ($teaching.type$)\\[.15cm]
+\ind $teaching.title$\hspace*{\fill}$teaching.date$\\[.15cm]
 $endfor$
 
 
