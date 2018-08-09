@@ -44,6 +44,17 @@ appointment:
         position: Bart Harvey Postdoctoral Research Fellow
         date: 2016 – 2017
 
+  # -
+  #   place: University of Maryland
+  #   items:
+  #     -
+  #       position: Spatial Research Coordinator
+  #       dept: National Center for Smart Growth Research and Education
+  #       date: 2013 – 2016
+  #     -
+  #       position: Graduate Research Assistant
+  #       date: 2011 – 2013
+
 education:
   -
     degree: Ph.D. -  Urban Studies and Planning
@@ -60,97 +71,87 @@ education:
 
 publication:
 
+### Start `in progress` section (denoted with public=True)
+
+    
+  -
+    title: "The Dynamics of Urban Neighborhoods: A Survey of Approaches for Modeling Socio-Spatial Structure"
+    author: "**Elijah Knaap**, Levi Wolf, Sergio Rey & Wei Kang"
+    journal: "Progress in Human Geography"
+    date: "In Preparation"
+    twopage: true
+    public: true
+
+  -
+    title: "Metropolitan Planning in a Vacuum"
+    author: "Nicholas Finio, Gerrit Knaap, Willow Lung-Amam, Casey Dawkins, & **Elijah Knaap**"
+    journal: "Journal of Urban Affairs"
+    date: "Under Review"
+    twopage: true
+    public: true
+
+  -
+    title: "Mi Casa no es Su Casa: Transit-Induced Gentrification and the Fight for Equitable Development in an Inner-Ring, Immigrant Suburb."
+    author: "Willow Lung-Amam, Rolf Pendall & **Elijah Knaap**"
+    journal: "Journal of Planning Education & Research"
+    date: "Under Review"
+    twopage: true
+    public: true
+
   -
     title: "Machines Learn the Chicago School: A Spatiotemporal Markov Model of Gentrification & Neighborhood Change"
-    author: "Elijah Knaap & Nicholas Finio"
+    author: "**Elijah Knaap** & Nicholas Finio"
     journal: "In Progress"
-    academic: false
     twopage: true
-    peer_reviewed: false
     public: true
 
 
   -
     title: "Who Moves to Opportunity? Spatial Returns to Housing Assistance and the Effect of Specialized Mobility Programs"
-    author: "Elijah Knaap"
+    author: "**Elijah Knaap**"
     journal: "In Progress"
-    academic: false
     twopage: true
-    peer_reviewed: false
     public: true
 
 
   -
     title: "Housing Assistance in Black and White: A Discrete Choice Model of Residential Sorting in Housing Voucher Programs"
-    author: "Elijah Knaap"
+    author: "**Elijah Knaap**"
     journal: "In Progress"
-    academic: false
     twopage: true
-    peer_reviewed: false
     public: true
 
+
+### Start `published` section
+  
   -
-    title: "Metropolitan Planning in a Vacuum"
-    author: "Nicholas Finio, Gerrit Knaap, Willow Lung-Amam, Casey Dawkins, & Elijah Knaap"
-    journal: "Journal of Urban Affairs"
-    date: "Under Review"
+    citekey: Lung-Amam
     academic: true
-    twopage: true
     peer_reviewed: true
 
   -
-    title: "Mi Casa no es Su Casa: Transit-Induced Gentrification and the Fight for Equitable Development in an Inner-Ring, Immigrant Suburb."
-    author: "Willow Lung-Amam, Rolf Pendall & Elijah Knaap"
-    journal: "Journal of Planning Education & Research"
-    date: "Under Review"
+    citekey: Rey2018a
     academic: true
-    twopage: true
     peer_reviewed: true
-
-  -
-    title: "Opportunity for Whom? The Diverse Definitions of Neighborhood Opportunity in Baltimore"
-    author: "Willow Lung-Amam, Elijah Knaap, Casey Dawkins & Gerrit Knaap"
-    journal: "City & Community"
-    date: "Forthcoming"
-    academic: true
-    twopage: true
-    peer_reviewed: true
-
 
   -
     citekey: Knaap2017
-    title: "The *Cartography* of Opportunity: Spatial Data Science for Equitable Urban Policy"
-    author: "Elijah Knaap"
-    journal: "Housing Policy Debate"
-    date: "August, 2017"
     academic: true
     twopage: true
     peer_reviewed: true
 
   -
     citekey: Knaap2016
-    title: "Polycentrism as a sustainable development strategy: empirical analysis from the state of Maryland"
-    author: "Elijah Knaap et al"
-    journal: "Journal of Urbanism: International Research on Placemaking and Urban Sustainability"
     academic: true
     twopage: true
     peer_reviewed: true
   -
     citekey: pendall2015driving
-    author: Rolf Pendall, Christopher Hayes, Arthur Taz George, Zach Mcdade, Casey Dawkins, Jae Sik Jeon, Elijah Knaap, Evelyn Blumenberg, Gregory Pierce, Michael Smart
-    title: "Driving to Opportunities: Voucher Users, Cars, and Movement to Sustainable Neighborhoods"
     academic: true
-    journal: Cityscape
-    journal_info: Vol 17, Issue 2
     twopage: true
 
   -
     citekey: Mishra2014
-    date: March 2015
-    author: "Sabyasachee Mishra, Timothy F. Welch, Paul M. Torrens, Cheng Fu, Haojie Zhu, & Eli Knaap"
-    title: "A tool for measuring and visualizing connectivity of transit stop, route and transfer center in a multimodal transportation network"
-    journal: "Public Transport"
-    journal_info: Vol 7, pages 77–99
     twopage: true
     academic: true
     peer_reviewed: true
@@ -160,14 +161,10 @@ publication:
     academic: true
     peer_reviewed: true
     
-  -
-    citekey: Pendall2014
-    title: "Driving to Opportunity : Understanding the links among transportation access, residential outcomes, and economic opportunity for housing voucher recipients"
-    author: Rolf Pendall, Christopher Hayes, Arthur Taz George, Zach Mcdade, Casey Dawkins, Jae Sik Jeon, Elijah Knaap, Evelyn Blumenberg, Gregory Pierce, Michael Smart
-    journal: Urban Institute
-    journal_info: Technical Report, Washington D.C.
-    academic: true
-    twopage: true
+ # -
+#    citekey: Pendall2014
+#    academic: true
+#    twopage: false
 
 
 invited_talk:
@@ -194,6 +191,13 @@ invited_talk:
 
 conference:
 
+-
+  title: "Spatio-temporal Analysis of Socioeconomic Neighborhoods"
+  author: "Sergio Rey & Elijah Knaap"
+  host: 17th Python in Science Conference
+  place: Austin, Texas
+  date: July, 2018
+  twopage: true
 
 -
   title: "Machines Learn the Chicago School: Spatiotemporal Markov Models of Neighborhood Change"
@@ -407,8 +411,5 @@ competencies:
 -
   type: Computing Platforms
   items:
-    - "Substantial experience: R, Python, ArcGIS/QGIS, HTML5/CSS"
+    - "Substantial experience: Python, R, ArcGIS/QGIS, HTML5/CSS"
     - "Research/collaborative use: Javascript, Postgresql/PostGIS, D3, LaTeX, JQuery, STATA, SPSS, Git, Shell scripting"
--
-  type: Planning Support Systems
-  items: Urban Data Science Toolkit, CommunityViz, EnvisionTomorrow+, SILO

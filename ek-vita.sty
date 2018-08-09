@@ -40,10 +40,11 @@
 \usepackage[usenames,dvipsnames]{xcolor}
 \definecolor{ImperialBlue}{rgb}{0.082,0.416,0.608}
 \definecolor{ImperialLightBlue}{rgb}{0.545,0.682,0.8}
+\definecolor{navy}{HTML}{00004d}
 
 \setromanfont[Mapping={tex-text}]{Spectral}
-\setsansfont[Mapping=tex-text,Colour=ImperialBlue]{Sunflower}
-\setmonofont[Mapping=tex-text,Scale=0.9]{Roboto Mono} % Consolas, Pragmata, Lucida Console
+\setsansfont[Mapping=tex-text,Scale=1.1,Colour=ImperialBlue]{Sunflower Light}
+\setmonofont[Mapping=tex-text,Scale=0.9]{FiraCode-Regular} % Consolas, Pragmata, Lucida Console
 
 %% ------------------------------------------------------------------------
 %% Header and footer
@@ -101,7 +102,7 @@
 
 %% hyperlinks
 \hypersetup{colorlinks,
-    allcolors=Blue}
+    urlcolor=Blue}
 
 \AtBeginDocument{%
   \def\keywords{\@name, Vita, CV, Resume, \@subject}
@@ -196,13 +197,20 @@
 %%   Bibliography formatting
 %% ------------------------------------------------------------------------
 
+
 %\usepackage[uniquename=init,dashed=false,doi=false,isbn=false,backend=biber]{biblatex-chicago}
 % \usepackage[uniquename=init, isbn=false,backend=biber]{biblatex-apa}
 %\usepackage[bibstyle=authoryear,sorting=ydnt,dashed=false, backend=biber]{biblatex}
 %\usepackage[bibstyle=authoryear,natbib,isbn=false,backend=biber,url=false]{biblatex}
 %\usepackage[bibstyle=iest, citestyle=iest, isbn=false, backend=biber]{biblatex}
 %\usepackage[citestyle=authoryear,notes,natbib,isbn=false,backend=biber,url=false,numbermonth=true, maxbibnames=20]{biblatex-chicago}
-\usepackage[citestyle=verbose,bibstyle=apa,maxnames=20,natbib,isbn=false,sorting=ynt,backend=biber]{biblatex}
+%\usepackage[citestyle=verbose,bibstyle=bwl-FU,maxnames=20,natbib,isbn=false,sorting=ynt,backend=biber]{biblatex}
+\usepackage[citestyle=verbose, bibstyle=publist, maxnames=20, natbib, isbn=false, backend=biber, plauthorhandling=highlight, boldyear=false]{biblatex}
+\plauthorname[Elijah]{Knaap}
+
+% consider using marginyear=true
+\renewcommand*\plmarginyear[1]{\raggedleft\small{#1}}
+
 
 
 \DeclareFieldFormat{url}{\url{#1}}
