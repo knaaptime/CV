@@ -7,7 +7,6 @@ eknaap_cv.pdf: eknaap_cv.tex
 	xelatex eknaap_cv
 	biber eknaap_cv
 	xelatex eknaap_cv
-	xelatex eknaap_cv
 	rm -f *cv.aux *cv.bcf *cv.log *cv.out *cv.run.xml eknaap_cv.tex eknaap_cv.bbl eknaap_cv.blg *yaml_cv.md
 
 yaml_cv.md: curriculum_vitae.yaml
