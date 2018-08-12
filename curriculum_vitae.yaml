@@ -82,6 +82,7 @@ publication:
     date: "Under Review"
     twopage: true
     public: true
+    manuscript: true
 
   -
     title: "Metropolitan Planning in a Vacuum"
@@ -90,6 +91,7 @@ publication:
     date: "Under Review"
     twopage: true
     public: true
+    manuscript: true
 
   -
     title: "Mi Casa no es Su Casa: Transit-Induced Gentrification and the Fight for Equitable Development in an Inner-Ring, Immigrant Suburb."
@@ -98,6 +100,7 @@ publication:
     date: "Under Review"
     twopage: true
     public: true
+    manuscript: true
 
   -
     title: "Machines Learn the Chicago School: A Spatiotemporal Markov Model of Gentrification & Neighborhood Change"
@@ -105,7 +108,7 @@ publication:
     journal: "In Progress"
     twopage: true
     public: true
-
+    manuscript: true
 
   -
     title: "Who Moves to Opportunity? Spatial Returns to Housing Assistance and the Effect of Specialized Mobility Programs"
@@ -113,6 +116,7 @@ publication:
     journal: "In Progress"
     twopage: true
     public: true
+    manuscript: true
 
 
   -
@@ -121,6 +125,7 @@ publication:
     journal: "In Progress"
     twopage: true
     public: true
+    manuscript: true
 
 
 ### Start `published` section
@@ -162,12 +167,30 @@ publication:
     academic: true
     peer_reviewed: true
     
+
  # -
 #    citekey: Pendall2014
 #    academic: true
 #    twopage: false
 
+  -
+    citekey: Avin2016
+    twopage: true
+    public: true
+    report: true
 
+  -
+    citekey: Pendall2014
+    twopage: true
+    public: true
+    report: true
+
+  -
+    citekey: Sartori2012
+    twopage: true
+    public: true
+    report: true
+    
 invited_talk:
 
   -
@@ -178,16 +201,17 @@ invited_talk:
     twopage: true
 
   -
-    date: October 18, 2014
-    title: "The Promise and Challenge of Equitable Transit-Oriented Development in Diverse Suburbs"
-    host: "Transit, Development, and Forme Urbaine: Washington et Paris"
-    place: Washington, DC
-    twopage: true
-  -
     date: March 14, 2015
     title: "Retail Location and Transit: An Econometric Examination of Retail Location in Prince George’s and Montgomery County"
     host: "Transit, Development, and Forme Urbaine: Washington et Paris"
     place: Paris, France
+    twopage: true
+
+  -
+    date: October 18, 2014
+    title: "The Promise and Challenge of Equitable Transit-Oriented Development in Diverse Suburbs"
+    host: "Transit, Development, and Forme Urbaine: Washington et Paris"
+    place: Washington, DC
     twopage: true
 
 conference:
@@ -409,7 +433,10 @@ service:
 
 competencies:
 -
-  type: Competencies
+  type: Programming
   items:
-    - "Substantial experience: Python, R, ArcGIS/QGIS, HTML5/CSS"
-    - "Research/collaborative use: Javascript, Postgresql/PostGIS, D3, LaTeX, JQuery, STATA, SPSS, Git, Shell scripting"
+    - "Python, R, Git, HTML5/CSS, LaTeX, Postgresql/PostGIS, STATA, Javascript, Shell scripting"
+-
+  type: Geographic Information Systems
+  items:
+    - "ArcGIS, [QGIS](https://qgis.org/en/site/), [GeoDa](https://geodacenter.github.io/), [STARS](https://github.com/sjsrey/stars), [`PySAL`](http://pysal.org/), [`Geopandas`](http://geopandas.readthedocs.io/en/latest/), [`sf`](http://r-spatial.github.io/sf/), [`spdep`](https://github.com/r-spatial/spdep/)"

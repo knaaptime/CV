@@ -111,24 +111,39 @@ $endif$
 $endfor$
 
 %\vspace{0.05in}
-
-\subsection{Manuscripts in Progress}
+\subsection{Technical Reports}
 
 $for(publication)$
 $if(publication.twopage)$
-$if(publication.public)$
+$if(publication.report)$
 $if(publication.citekey)$
 \ind \cite{$publication.citekey$}.\\[.2cm]
 $else$
 $if(publication.author)$$publication.author$,$endif$
 \ind ``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.2cm]
 $endif$
-% End of block for general publications
+% End of block for tech reports 
 $endif$
 $endif$
 $endfor$
 
-\vspace{0.09in}
+\subsection{Manuscripts in Progress}
+
+$for(publication)$
+$if(publication.twopage)$
+$if(publication.manuscript)$
+$if(publication.citekey)$
+\ind \cite{$publication.citekey$}.\\[.2cm]
+$else$
+$if(publication.author)$$publication.author$,$endif$
+\ind ``$publication.title$.'' $if(publication.journal)$\textit{$publication.journal$}$if(publication.journal_info)$, $publication.journal_info$$endif$.$endif$ $publication.date$$if(publication.description)$. $publication.description$$endif$.\\[.2cm]
+$endif$
+% End of block for in progress
+$endif$
+$endif$
+$endfor$
+
+%\vspace{0.09in}
 
 
 
