@@ -11,7 +11,7 @@ tel: 240.441.2619
 orcid: 0000-0001-7520-2238
 github: knaaptime
 bibliography: knaap.bib
-csl: apa-cv.csl
+#csl: apa-cv.csl
 
 
 appointment:
@@ -72,14 +72,13 @@ education:
 
 publication:
 
-### Start `in progress` section (denoted with public=True)
+### Start `in progress` section (denoted with manuscript=True)
 
-    
   -
-    title: "The Dynamics of Urban Neighborhoods: A Survey of Approaches for Modeling Socio-Spatial Structure"
+    title: "Living Room: Making Space for the Neighborhood in Urban Science"
     author: "**Elijah Knaap**, Levi Wolf, Sergio Rey, Su Han & Wei Kang"
     journal: "Progress in Human Geography"
-    date: "Under Review"
+    date: "In Progress"
     twopage: true
     public: true
     manuscript: true
@@ -104,39 +103,93 @@ publication:
 
   -
     title: "Machines Learn the Chicago School: A Spatiotemporal Markov Model of Gentrification & Neighborhood Change"
-    author: "**Elijah Knaap** & Nicholas Finio"
+    author: "**Elijah Knaap**, Nicholas Finio, Wei Kang, Levi Wolf, & Sergio Rey"
+    journal: "Environment and Planning B: Urban Analytics and City Science"
+    date: "In Progress"
+    twopage: true
+    public: true
+    manuscript: true
+
+  -
+    title: "Geosilhouettes: Spatially-Aware Measures of Geographic Cluster Certainty"
+    author: "Levi Wolf, **Elijah Knaap** & Sergio Rey"
+    journal: "In Progress"
+    twopage: true
+    public: true
+    manuscript: true
+
+#  -
+#    title: How do cities flow in an emergency? Tracing Human Mobility Patterns During a Natural Disaster with Big Data and Spatial Data Science
+#    author: "Su Yeon Han, Ming-Hsiang Tsou, **Elijah Knaap**, Sergio Rey & Guofeng Cao"
+#    journal: "In Progress"
+#    twopage: true
+#    public: true
+#    manuscript: true 
+#
+#  -
+#    title: "Old Wine in New Bottles: Moving Desktop Based Geovisual Analytics to the Web In Python"
+#    author: "Sergio J. Rey, Su Han, Renan Xavier Cortes, Wei Kang, & **Elijah Knaap**"
+#    journal: "In Progress"
+#    twopage: true
+#    public: true
+#    manuscript: true 
+#
+#  -
+#    title: "Gentrification With a White Picket Fence: Neighborhood Upgrading in US Suburbs, 1980-2016"
+#    author: "Nicholas Finio & **Elijah Knaap**"
+#    journal: "In Progress"
+#    twopage: true
+#    public: true
+#    manuscript: true
+#
+  -
+    title: "Spatial Informatics for Measuring Urban Inequality in International Contexts"
+    author: "**Elijah Knaap**, Gerrit Knaap, Nicholas Finio & Sergio Rey"
     journal: "In Progress"
     twopage: true
     public: true
     manuscript: true
 
   -
-    title: "Who Moves to Opportunity? Spatial Returns to Housing Assistance and the Effect of Specialized Mobility Programs"
-    author: "**Elijah Knaap**"
+    title: "Adaptive Choropleth Mapper: A Web-based Tool for Synchronous Exploration of Multiple Variables at Multiple Spatial Scales"
+    author: "Su Han, Sergio Rey, **Elijah Knaap**, Wei Kang, Levi Wolf"
     journal: "In Progress"
     twopage: true
     public: true
     manuscript: true
 
-
-  -
-    title: "Housing Assistance in Black and White: A Discrete Choice Model of Residential Sorting in Housing Voucher Programs"
-    author: "**Elijah Knaap**"
-    journal: "In Progress"
-    twopage: true
-    public: true
-    manuscript: true
+#  -
+#    title: "Who Moves to Opportunity? Spatial Returns to Housing Assistance and the Effect of Specialized Mobility Programs"
+#    author: "**Elijah Knaap**"
+#    journal: "In Progress"
+#    twopage: true
+#    public: true
+#    manuscript: true
+#
+#  -
+#    title: "Housing Assistance in Black and White: A Discrete Choice Model of Residential Sorting in Housing Voucher Programs"
+#    author: "**Elijah Knaap**"
+#    journal: "In Progress"
+#    twopage: true
+#    public: true
+#    manuscript: true
 
 
 ### Start `published` section
-  
+
+# Refereed Articles
   -
     citekey: Lung-Amam
     academic: true
     peer_reviewed: true
 
   -
-    citekey: Rey2018a
+    citekey: Rey2018
+    academic: true
+    peer_reviewed: true
+
+  - 
+    citekey: Nedovic-Budic2018
     academic: true
     peer_reviewed: true
 
@@ -168,10 +221,12 @@ publication:
     peer_reviewed: true
     
 
- # -
-#    citekey: Pendall2014
-#    academic: true
-#    twopage: false
+# Reports
+  -
+    citekey: Finio2018
+    twopage: true
+    public: true
+    report: true
 
   -
     citekey: Avin2016
@@ -190,7 +245,8 @@ publication:
     twopage: true
     public: true
     report: true
-    
+
+
 invited_talk:
 
   -
@@ -435,8 +491,8 @@ competencies:
 -
   type: Programming
   items:
-    - "Python, R, Git, HTML5/CSS, LaTeX, Postgresql/PostGIS, STATA, Javascript, Shell scripting"
+    - "Python, R, Git, HTML5/CSS, LaTeX, Postgresql/PostGIS, STATA, Javascript"
 -
   type: Geographic Information Systems
   items:
-    - "ArcGIS, [QGIS](https://qgis.org/en/site/), [GeoDa](https://geodacenter.github.io/), [STARS](https://github.com/sjsrey/stars), [`PySAL`](http://pysal.org/), [`Geopandas`](http://geopandas.readthedocs.io/en/latest/), [`sf`](http://r-spatial.github.io/sf/), [`spdep`](https://github.com/r-spatial/spdep/)"
+    - "ArcGIS, [QGIS](https://qgis.org/en/site/), [GeoDa](https://geodacenter.github.io/), [STARS](https://github.com/sjsrey/stars), [`PySAL`](http://pysal.org/), [`GeoPandas`](http://geopandas.readthedocs.io/en/latest/), [`sf`](http://r-spatial.github.io/sf/), [`spdep`](https://github.com/r-spatial/spdep/)"
