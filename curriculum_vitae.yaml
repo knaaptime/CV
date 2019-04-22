@@ -1,457 +1,479 @@
-name: Elijah Knaap
+name:              Elijah Knaap
 address:
     - Center for Geospatial Sciences
     - Suite 159, Tomas Rivera Library
     - 900 University Ave
     - Riverside, CA 92505
-email: ek@knaaptime.com
-twitter: "@knaaptime"
-www: knaaptime.com
-tel: 240.441.2619
-orcid: 0000-0001-7520-2238
-github: knaaptime
-bibliography: knaap.bib
-#csl: apa-cv.csl
+email:             ek@knaaptime.com
+twitter:           "@knaaptime"
+www:               knaaptime.com
+tel:               240.441.2619
+orcid:             0000-0001-7520-2238
+github:            knaaptime
+bibliography:      knaap.bib
+#csl:              apa-cv.csl
 
 
 appointment:
 
   -
-    place: University of California-Riverside
+    place:         University of California-Riverside
     items:
       -
-        position: Postdoctoral Scholar
-        dept: School of Public Policy & Center for Geospatial Sciences
-        date: 2018 –
+        position:  Associate Director
+        dept:      Center for Geospatial Sciences
+        date:      2019 –         
+      -
+        position:  Postdoctoral Scholar
+        dept:      School of Public Policy & Center for Geospatial Sciences
+        date:      2018 – 2019
+   
   -
-    place: University of Illinois at Chicago
+    place:         University of Illinois at Chicago
     items:
       -
-        position: Visiting Assistant Professor & Postdoctoral Research Associate
-        dept:  Dept. of Urban Planning and Policy
-        date: 2017 – 2018
+        position:  Visiting Assistant Professor & Postdoctoral Research Associate
+        dept:      Dept. of Urban Planning and Policy
+        date:      2017 – 2018
   -
-    place: University of Maryland 
+    place:         University of Maryland 
     items:
       -
-        position: Adjunct Professor
-        dept: Dept. of Urban Studies and Planning & School of Information Studies
-        date: 2016 – 2017
+        position:  Adjunct Professor
+        dept:      Dept. of Urban Studies and Planning & School of Information Studies
+        date:      2016 – 2017
   -
-    place: Enterprise Community Partners, Inc.
+    place:         Enterprise Community Partners, Inc.
     items:
       -
-        position: Bart Harvey Postdoctoral Research Fellow
-        dept: Knowledge, Impact, & Strategy Team
-        date: 2016 – 2017
+        position:  Bart Harvey Postdoctoral Research Fellow
+        dept:      Knowledge, Impact, & Strategy Team
+        date:      2016 – 2017
 
   # -
-  #   place: University of Maryland
+  #   place:       University of Maryland
   #   items:
   #     -
   #       position: Spatial Research Coordinator
-  #       dept: National Center for Smart Growth Research and Education
-  #       date: 2013 – 2016
+  #       dept:    National Center for Smart Growth Research and Education
+  #       date:    2013 – 2016
   #     -
   #       position: Graduate Research Assistant
-  #       date: 2011 – 2013
+  #       date:    2011 – 2013
 
 education:
   -
-    degree: Ph.D. -  Urban Studies and Planning
-    place: University of Maryland
-    date: 2016
+    degree:        Ph.D. -  Urban Studies and Planning
+    place:         University of Maryland
+    date:          2016
   -
-    degree: M.A.  -  Community Planning
-    place: University of Maryland
-    date: 2013
+    degree:        M.A.  -  Community Planning
+    place:         University of Maryland
+    date:          2013
   -
-    degree: B.A.  -  Sociology
-    place: University of Maryland
-    date: 2011
+    degree:        B.A.  -  Sociology
+    place:         University of Maryland
+    date:          2011
 
 publication:
 
 ### Start `in progress` section (denoted with manuscript=True)
 
   -
-    title: "Living Room: Making Space for the Neighborhood in Urban Science"
-    author: "**Elijah Knaap**, Levi Wolf, Sergio Rey, Su Han & Wei Kang"
-    journal: "Progress in Human Geography"
-    date: "In Progress"
-    twopage: true
-    public: true
-    manuscript: true
+    title: "Neighborhood Change in the United States: A Comparison of Sequence Analysis Methods"
+    author:        "Wei Kang, Sergio Rey, Levi Wolf, **Elijah Knaap** & Su Han"
+    journal:       "Computers, Environment, and Urban Systems"
+    date:          "Under Review"
+    twopage:       true
+    public:        true
+    manuscript:    true
 
   -
-    title: "Metropolitan Planning in a Vacuum"
-    author: "Nicholas Finio, Gerrit Knaap, Willow Lung-Amam, Casey Dawkins, & **Elijah Knaap**"
-    journal: "Journal of Urban Affairs"
-    date: "Under Review"
-    twopage: true
-    public: true
-    manuscript: true
+    title: "The Dynamics of Urban Neighborhoods: A Survey of Approaches for Modeling Socio-Spatial Structure"
+    author:        "**Elijah Knaap**, Levi Wolf, Sergio Rey, Su Han & Wei Kang"
+    journal:       "Geography Compass"
+    date:          "Under Review"
+    twopage:       true
+    public:        true
+    manuscript:    true
 
   -
     title: "Mi Casa no es Su Casa: Transit-Induced Gentrification and the Fight for Equitable Development in an Inner-Ring, Immigrant Suburb."
-    author: "Willow Lung-Amam, Rolf Pendall & **Elijah Knaap**"
-    journal: "Journal of Planning Education & Research"
-    date: "Under Review"
-    twopage: true
-    public: true
-    manuscript: true
+    author:        "Willow Lung-Amam, Rolf Pendall & **Elijah Knaap**"
+    journal:       "Journal of Planning Education & Research"
+    date:          "Under Review"
+    twopage:       true
+    public:        true
+    manuscript:    true
 
   -
     title: "Machines Learn the Chicago School: A Spatiotemporal Markov Model of Gentrification & Neighborhood Change"
-    author: "**Elijah Knaap**, Nicholas Finio, Wei Kang, Levi Wolf, & Sergio Rey"
+    author:        "**Elijah Knaap**, Nicholas Finio, Wei Kang, Levi Wolf, & Sergio Rey"
     journal: "Environment and Planning B: Urban Analytics and City Science"
-    date: "In Progress"
-    twopage: true
-    public: true
-    manuscript: true
+    date:          "In Progress"
+    twopage:       true
+    public:        true
+    manuscript:    true
 
   -
     title: "Geosilhouettes: Spatially-Aware Measures of Geographic Cluster Certainty"
-    author: "Levi Wolf, **Elijah Knaap** & Sergio Rey"
-    journal: "In Progress"
-    twopage: true
-    public: true
-    manuscript: true
+    author:        "Levi Wolf, **Elijah Knaap** & Sergio Rey"
+    journal:       Environment and Planning B
+    date:          "Under Review"
+    twopage:       true
+    public:        true
+    manuscript:    true
+
 
 #  -
-#    title: How do cities flow in an emergency? Tracing Human Mobility Patterns During a Natural Disaster with Big Data and Spatial Data Science
-#    author: "Su Yeon Han, Ming-Hsiang Tsou, **Elijah Knaap**, Sergio Rey & Guofeng Cao"
-#    journal: "In Progress"
-#    twopage: true
-#    public: true
-#    manuscript: true 
-#
-#  -
 #    title: "Old Wine in New Bottles: Moving Desktop Based Geovisual Analytics to the Web In Python"
-#    author: "Sergio J. Rey, Su Han, Renan Xavier Cortes, Wei Kang, & **Elijah Knaap**"
-#    journal: "In Progress"
-#    twopage: true
-#    public: true
-#    manuscript: true 
+#    author:       "Sergio J. Rey, Su Han, Renan Xavier Cortes, Wei Kang, & **Elijah Knaap**"
+#    journal:      "In Progress"
+#    twopage:      true
+#    public:       true
+#    manuscript:   true 
 #
 #  -
 #    title: "Gentrification With a White Picket Fence: Neighborhood Upgrading in US Suburbs, 1980-2016"
-#    author: "Nicholas Finio & **Elijah Knaap**"
-#    journal: "In Progress"
-#    twopage: true
-#    public: true
-#    manuscript: true
+#    author:       "Nicholas Finio & **Elijah Knaap**"
+#    journal:      "In Progress"
+#    twopage:      true
+#    public:       true
+#    manuscript:   true
 #
   -
-    title: "Spatial Informatics for Measuring Urban Inequality in International Contexts"
-    author: "**Elijah Knaap**, Gerrit Knaap, Nicholas Finio & Sergio Rey"
-    journal: "In Progress"
-    twopage: true
-    public: true
-    manuscript: true
+    title:         "Spatial Informatics for Measuring Urban Inequality in International Contexts"
+    author:        "**Elijah Knaap**, Gerrit Knaap, Nicholas Finio & Sergio Rey"
+    journal:       "In Progress"
+    twopage:       true
+    public:        true
+    manuscript:    true
 
   -
-    title: "Adaptive Choropleth Mapper: A Web-based Tool for Synchronous Exploration of Multiple Variables at Multiple Spatial Scales"
-    author: "Su Han, Sergio Rey, **Elijah Knaap**, Wei Kang, Levi Wolf"
-    journal: "In Progress"
-    twopage: true
-    public: true
-    manuscript: true
+    title:         "Adaptive Choropleth Mapper: A Web-based Tool for Synchronous Exploration of Multiple Variables at Multiple Spatial Scales"
+    author:        "Su Han, Sergio Rey, **Elijah Knaap**, Wei Kang, Levi Wolf"
+    journal:       "Spatial Information Science"
+    date:          "Under Review"
+    twopage:       true
+    public:        true
+    manuscript:    true
 
-#  -
-#    title: "Who Moves to Opportunity? Spatial Returns to Housing Assistance and the Effect of Specialized Mobility Programs"
-#    author: "**Elijah Knaap**"
-#    journal: "In Progress"
-#    twopage: true
-#    public: true
-#    manuscript: true
+  - 
+    title:         "Comparative Spatial Segregation Analytics"
+    author:        "Sergio Rey, Renan Xavier Cortes & **Elijah Knaap**"
+    journal:       "In Progress"  
+    twopage:       true
+    public:        true
+    manuscript:    true
+  - 
+    title:         "How do cities flow in an emergency? Tracing human mobility patterns during a natural disaster with big data and geospatial data science" 
+    author:        "Su Yeon Han1, Ming-Hsiang Tsou, **Elijah Knaap**, Sergio Rey, and Guofeng Cao"
+    journal:       "Urban Science"
+    date:          "Under Review"
+    twopage:       true
+    public:        true
+    manuscript:    true
+
+
+
+#    title:        "Who Moves to Opportunity? Spatial Returns to Housing Assistance and the Effect of Specialized Mobility Programs"
+#    author:       "**Elijah Knaap**"
+#    journal:      "In Progress"
+#    twopage:      true
+#    public:       true
+#    manuscript:   true
 #
 #  -
 #    title: "Housing Assistance in Black and White: A Discrete Choice Model of Residential Sorting in Housing Voucher Programs"
-#    author: "**Elijah Knaap**"
-#    journal: "In Progress"
-#    twopage: true
-#    public: true
-#    manuscript: true
+#    author:       "**Elijah Knaap**"
+#    journal:      "In Progress"
+#    twopage:      true
+#    public:       true
+#    manuscript:   true
 
 
 ### Start `published` section
 
 # Refereed Articles
+  - 
+    citekey:       Finio2019
+    academic:      true
+    peer_reviewed: true
+ 
   -
-    citekey: Lung-Amam
-    academic: true
+    citekey:       Lung-Amam
+    academic:      true
     peer_reviewed: true
 
   -
-    citekey: Rey2018
-    academic: true
+    citekey:       Rey2018
+    academic:      true
     peer_reviewed: true
 
   - 
-    citekey: Nedovic-Budic2018
-    academic: true
+    citekey:       Nedovic-Budic2018
+    academic:      true
     peer_reviewed: true
 
   -
-    citekey: Knaap2017
-    academic: true
-    twopage: true
+    citekey:       Knaap2017
+    academic:      true
+    twopage:       true
     peer_reviewed: true
 
   -
-    citekey: Knaap2016
-    academic: true
-    twopage: true
+    citekey:       Knaap2016
+    academic:      true
+    twopage:       true
     peer_reviewed: true
   -
-    citekey: pendall2015driving
-    academic: true
-    twopage: true
+    citekey:       pendall2015driving
+    academic:      true
+    twopage:       true
 
   -
-    citekey: Mishra2014
-    twopage: true
-    academic: true
+    citekey:       Mishra2014
+    twopage:       true
+    academic:      true
     peer_reviewed: true
     
   -
-    citekey: mishra2014locating
-    academic: true
+    citekey:       mishra2014locating
+    academic:      true
     peer_reviewed: true
     
 
 # Reports
   -
-    citekey: Finio2018
-    twopage: true
-    public: true
-    report: true
+    citekey:       Finio2018
+    twopage:       true
+    public:        true
+    report:        true
 
   -
-    citekey: Avin2016
-    twopage: true
-    public: true
-    report: true
+    citekey:       Avin2016
+    twopage:       true
+    public:        true
+    report:        true
 
   -
-    citekey: Pendall2014
-    twopage: true
-    public: true
-    report: true
+    citekey:       Pendall2014
+    twopage:       true
+    public:        true
+    report:        true
 
   -
-    citekey: Sartori2012
-    twopage: true
-    public: true
-    report: true
+    citekey:       Sartori2012
+    twopage:       true
+    public:        true
+    report:        true
 
 
 invited_talk:
 
   -
-    date: May 4, 2016
+    date:          May 4, 2016
     title: "The Geography of Neighborhood Change: Poverty, Immigration and Gentrification"
-    host: Makeover Montgomery 3
-    place: Balancing Change in America's Suburbs
-    twopage: true
+    host:          Makeover Montgomery 3
+    place:         Balancing Change in America's Suburbs
+    twopage:       true
 
   -
-    date: March 14, 2015
+    date:          March 14, 2015
     title: "Retail Location and Transit: An Econometric Examination of Retail Location in Prince George’s and Montgomery County"
     host: "Transit, Development, and Forme Urbaine: Washington et Paris"
-    place: Paris, France
-    twopage: true
+    place:         Paris, France
+    twopage:       true
 
   -
-    date: October 18, 2014
-    title: "The Promise and Challenge of Equitable Transit-Oriented Development in Diverse Suburbs"
+    date:          October 18, 2014
+    title:         "The Promise and Challenge of Equitable Transit-Oriented Development in Diverse Suburbs"
     host: "Transit, Development, and Forme Urbaine: Washington et Paris"
-    place: Washington, DC
-    twopage: true
+    place:         Washington, DC
+    twopage:       true
 
 conference:
 
 -
-  title: "Spatio-temporal Analysis of Socioeconomic Neighborhoods"
-  author: "Sergio Rey & Elijah Knaap"
-  host: 17th Python in Science Conference
-  place: Austin, Texas
-  date: July, 2018
-  twopage: true
+  title:           "Spatio-temporal Analysis of Socioeconomic Neighborhoods"
+  author:          "Sergio Rey & Elijah Knaap"
+  host:            17th Python in Science Conference
+  place:           Austin, Texas
+  date:            July, 2018
+  twopage:         true
 
 -
   title: "Machines Learn the Chicago School: Spatiotemporal Markov Models of Neighborhood Change"
-  author: "Elijah Knaap & Nicholas Finio"
-  host: Association of Collegiate Schools of Planning
-  place: Denver, Colorado
-  date: October, 2017
-  twopage: true
+  author:          "Elijah Knaap & Nicholas Finio"
+  host:            Association of Collegiate Schools of Planning
+  place:           Denver, Colorado
+  date:            October, 2017
+  twopage:         true
 
 -
   title: "The Cartography of Opportunity: Spatial Data Science for Equitable Urban Policy"
-  author: "Elijah Knaap"
-  host: American Association of Geographers
-  place: Boston, Massachusetts
-  date: April, 2017
-  twopage: true
+  author:          "Elijah Knaap"
+  host:            American Association of Geographers
+  place:           Boston, Massachusetts
+  date:            April, 2017
+  twopage:         true
 
 -
-  title: "Who Moves to Opportunity? Residential Sorting Models from a Unique Housing Mobility Program in Baltimore"
-  author: "Elijah Knaap"
-  host: Association of Collegiate Schools of Planning
-  place: Portland, Oregon
-  date: November, 2016
-  twopage: true
+  title:           "Who Moves to Opportunity? Residential Sorting Models from a Unique Housing Mobility Program in Baltimore"
+  author:          "Elijah Knaap"
+  host:            Association of Collegiate Schools of Planning
+  place:           Portland, Oregon
+  date:            November, 2016
+  twopage:         true
 
 -
   title: "Regional Planning, Access to Opportunity, & Freddie Gray: Lessons from Baltimore"
-  author: "Gerrit Knaap, Elijah Knaap, Nick Finio, Casey Dawkins, Willow Lung-Amam"
-  host: Association of Collegiate Schools of Planning
-  place: Portland, Oregon
-  date: November, 2016
-  twopage: true
+  author:          "Gerrit Knaap, Elijah Knaap, Nick Finio, Casey Dawkins, Willow Lung-Amam"
+  host:            Association of Collegiate Schools of Planning
+  place:           Portland, Oregon
+  date:            November, 2016
+  twopage:         true
 
 -
   title: "Opportunity, Transportation, and Neighborhood Choice: A Quantitative Examination of Housing Voucher Use in Baltimore"
-  author: "Elijah Knaap"
-  host: Association of Collegiate Schools of Planning
-  place: Houston, Texas
-  date: October, 2015
-  twopage: true
+  author:          "Elijah Knaap"
+  host:            Association of Collegiate Schools of Planning
+  place:           Houston, Texas
+  date:            October, 2015
+  twopage:         true
 -
   title: "Networks and Neighborhood Effects: The Role of Accessibility in Economic Mobility"
-  author: "Elijah Knaap & Casey Dawkins"
-  host: Federal Reserve System Community Development Research Conference
-  place: Washington D.C.
-  date: April 3, 2015
-  twopage: true
+  author:          "Elijah Knaap & Casey Dawkins"
+  host:            Federal Reserve System Community Development Research Conference
+  place:           Washington D.C.
+  date:            April 3, 2015
+  twopage:         true
 -
-  title: "Improving Social and Economic Equity in Maryland"
-  author: "Chao Liu, Elijah Knaap & Gerrit Knaap"
-  host: 14th Annual New Partners for Smart Growth Conference Tech Fair
-  place: Baltimore, Maryland
-  date: January 3, 2015
-  twopage: true
+  title:           "Improving Social and Economic Equity in Maryland"
+  author:          "Chao Liu, Elijah Knaap & Gerrit Knaap"
+  host:            14th Annual New Partners for Smart Growth Conference Tech Fair
+  place:           Baltimore, Maryland
+  date:            January 3, 2015
+  twopage:         true
 -
   title: "Trajectories of Neighborhood Attainment: Evidence from MTO in Baltimore"
-  author: "Elijah Knaap"
-  host: Association of Collegiate Schools of Planning
-  place: Philadelphia, Pennsylvania
-  date: October, 2014
-  twopage: true
+  author:          "Elijah Knaap"
+  host:            Association of Collegiate Schools of Planning
+  place:           Philadelphia, Pennsylvania
+  date:            October, 2014
+  twopage:         true
 
 -
-  title: "The Use and Misuse of Opportunity Maps"
-  author: 'Elijah Knaap & Chao Liu'
-  host: Association of Collegiate Schools of Planning
-  place: Philadelphia, Pennsylvania
-  date: October, 2014
-  twopage: true
+  title:           "The Use and Misuse of Opportunity Maps"
+  author:          'Elijah Knaap & Chao Liu'
+  host:            Association of Collegiate Schools of Planning
+  place:           Philadelphia, Pennsylvania
+  date:            October, 2014
+  twopage:         true
 
 -
-  title: "Identifying Maryland Transportation Place Types"
-  author: 'Chao Liu, Ting Ma, Elijah Knaap, & Gerrit Knaap'
-  host: Association of Collegiate Schools of Planning
-  place: Philadelphia, Pennsylvania
-  date: October, 2014
-  twopage: true
+  title:           "Identifying Maryland Transportation Place Types"
+  author:          'Chao Liu, Ting Ma, Elijah Knaap, & Gerrit Knaap'
+  host:            Association of Collegiate Schools of Planning
+  place:           Philadelphia, Pennsylvania
+  date:            October, 2014
+  twopage:         true
 
 -
-  title: "Opportunity Mapping Tools to Improve Social and Economic Equity in Maryland"
-  author: 'Elijah Knaap, Chao Liu, & Gerrit Knaap'
-  host: Makeover Montgomery II
-  place: Silver Spring, Maryland
-  date: October, 2014
-  twopage: true
+  title:           "Opportunity Mapping Tools to Improve Social and Economic Equity in Maryland"
+  author:          'Elijah Knaap, Chao Liu, & Gerrit Knaap'
+  host:            Makeover Montgomery II
+  place:           Silver Spring, Maryland
+  date:            October, 2014
+  twopage:         true
 
 -
   title: "Locating the Most Connected Transit Stop, Route, and Transfer Center: Tool for Users and Decision Makers"
-  author: 'Mishra, S., Welch, T. F., Torrens, P. M., Zhu, H., & Knaap, E.'
-  host: Transportation Research Board 93rd Annual Meeting
-  place: Washington D.C.
-  date: October, 2014
-  twopage: true
+  author:          'Mishra, S., Welch, T. F., Torrens, P. M., Zhu, H., & Knaap, E.'
+  host:            Transportation Research Board 93rd Annual Meeting
+  place:           Washington D.C.
+  date:            October, 2014
+  twopage:         true
 
 -
   title: "Opportunity Mapping: A Conceptual Analysis and Application to the Baltimore Metropolitan Area"
-  author: 'Chao Liu, Elijah Knaap & Gerrit Knaap'
-  host: "Annual Conference of the Association for Public Policy Analysis & Management"
-  place: Washington D.C.
-  date: 2013
-  twopage: true
+  author:          'Chao Liu, Elijah Knaap & Gerrit Knaap'
+  host:            "Annual Conference of the Association for Public Policy Analysis & Management"
+  place:           Washington D.C.
+  date:            2013
+  twopage:         true
 
 -
   title: "Opportunity Mapping: Concepts and Techniques"
-  author: 'Elijah Knaap, Chao Liu, & Gerrit Knaap'
-  host: "Joint Meeting of the Association of Collegiate Schools of Planning & Association of European Schools of Planning "
-  place: Dublin, Ireland
-  date: 2013
-  twopage: true
+  author:          'Elijah Knaap, Chao Liu, & Gerrit Knaap'
+  host:            "Joint Meeting of the Association of Collegiate Schools of Planning & Association of European Schools of Planning "
+  place:           Dublin, Ireland
+  date:            2013
+  twopage:         true
 
 -
   title: "Reclassification of Sustainable Neighborhoods: An Opportunity Indicator Analysis in Baltimore Metropolitan Area"
-  author: 'Chao Liu, Elijah Knaap, & Gerrit Knaap'
-  host: "Joint Meeting of the Association of Collegiate Schools of Planning & Association of European Schools of Planning "
-  place: Dublin, Ireland
-  date: 2013
-  twopage: true
+  author:          'Chao Liu, Elijah Knaap, & Gerrit Knaap'
+  host:            "Joint Meeting of the Association of Collegiate Schools of Planning & Association of European Schools of Planning "
+  place:           Dublin, Ireland
+  date:            2013
+  twopage:         true
 
 -
   title: "Economic Clusters and Transit Oriented Development: Two for the Price of One"
-  author: 'Elijah Knaap, Yi Niu, Chengri Ding, Sabyasachee Mishra,  Tim Welch'
-  host: "Annual Meeting of the Association of Collegiate Schools of Planning & Association"
-  place: Cincinnati, Ohio
-  date: 2012
-  twopage: true
+  author:          'Elijah Knaap, Yi Niu, Chengri Ding, Sabyasachee Mishra,  Tim Welch'
+  host:            "Annual Meeting of the Association of Collegiate Schools of Planning & Association"
+  place:           Cincinnati, Ohio
+  date:            2012
+  twopage:         true
 
 -
   title: "Improving Opportunity Accessibility for Underserved Populations: A Sustainable and Equitable Economic Development (SEED) Initiative for the State of Maryland"
-  author: 'Chao Liu, Gerrit Knaap, Jason Sartori & Elijah Knaap'
-  host: "Annual Meeting of the Association of Collegiate Schools of Planning & Association"
-  place: Cincinnati, Ohio
-  date: 2012
-  twopage: true
+  author:          'Chao Liu, Gerrit Knaap, Jason Sartori & Elijah Knaap'
+  host:            "Annual Meeting of the Association of Collegiate Schools of Planning & Association"
+  place:           Cincinnati, Ohio
+  date:            2012
+  twopage:         true
 
 teaching:
 -
   title: "`UPP 461`: GIS for Urban Planners"
-  date: Fall 2017
-  type: Graduate
+  date:            Fall 2017
+  type:            Graduate
 -
   title: "`URSP 688Y`: Smart Cities and Urban Data Science"
-  date: Spring 2017
-  type: Graduate
+  date:            Spring 2017
+  type:            Graduate
 
 -
   title: "`URSP 688Q`: Intermediate GIS (Co-Taught with Chao Liu)"
-  date: Spring 2014
-  type: Graduate
+  date:            Spring 2014
+  type:            Graduate
 
 -
   title: "`URSP 688G`: Urban Planning Technology; (Co-Taught with Chao Liu)"
-  date: Fall 2014
-  type: Graduate
+  date:            Fall 2014
+  type:            Graduate
 
 -
   title: "`URSP 688G`: Urban Planning Technology; (Co-Taught with Chao Liu)"
-  date: Spring 2013
-  type: Graduate
+  date:            Spring 2013
+  type:            Graduate
 
 media_coverage:
 -
-  author: "Misra, Tanvi"
-  title: "Baltimore's Housing Voucher Program Almost Gets It Right"
-  url: "http://www.citylab.com/housing/2016/01/baltimore-affordable-housing-voucher-opportunity/421722/"
-  journal: "CityLab"
-  date: "January 5, 2016"
+  author:          "Misra, Tanvi"
+  title:           "Baltimore's Housing Voucher Program Almost Gets It Right"
+  url:             "http://www.citylab.com/housing/2016/01/baltimore-affordable-housing-voucher-opportunity/421722/"
+  journal:         "CityLab"
+  date:            "January 5, 2016"
 
 -
-  author: "Lung-Amam, Willow & Eli Knaap"
-  title: "Defining 'opportunity' in Baltimore"
-  url: "http://www.baltimoresun.com/news/opinion/oped/bs-ed-baltimore-opportunity-20150803-story.html"
-  journal: "The Baltimore Sun"
-  date: "August 3, 2015"
+  author:          "Lung-Amam, Willow & Eli Knaap"
+  title:           "Defining 'opportunity' in Baltimore"
+  url:             "http://www.baltimoresun.com/news/opinion/oped/bs-ed-baltimore-opportunity-20150803-story.html"
+  journal:         "The Baltimore Sun"
+  date:            "August 3, 2015"
 
 
 grants:
@@ -467,32 +489,32 @@ awards:
 
 service:
 -
-  type: "Service to the Profession"
+  type:            "Service to the Profession"
   gigs:
 
     -
       item:  "Member: American Association of Geographers"
-      date: 2013 -
-      twopage: true
+      date:        2013 -
+      twopage:     true
     -
       item:  "Member: Association of Collegiate Schools of Planning"
-      date: 2013 -
-      twopage: true
+      date:        2013 -
+      twopage:     true
     -
       item:  "Member: American Sociological Association"
-      date: 2015 -
-      twopage: true
+      date:        2015 -
+      twopage:     true
     -
       item:  "Member: Regional Science Association International"
-      date: 2018 -
-      twopage: true
+      date:        2018 -
+      twopage:     true
 
 competencies:
 -
-  type: Programming
+  type:            Programming
   items:
     - "Python, R, Git, HTML5/CSS, LaTeX, Postgresql/PostGIS, STATA, Javascript"
 -
-  type: Geographic Information Systems
+  type:            Geographic Information Systems
   items:
     - "ArcGIS, [QGIS](https://qgis.org/en/site/), [GeoDa](https://geodacenter.github.io/), [STARS](https://github.com/sjsrey/stars), [`PySAL`](http://pysal.org/), [`GeoPandas`](http://geopandas.readthedocs.io/en/latest/), [`sf`](http://r-spatial.github.io/sf/), [`spdep`](https://github.com/r-spatial/spdep/)"
