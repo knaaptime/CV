@@ -77,19 +77,12 @@ education:
 
 publication:
 
-### Start `in progress` section (denoted with manuscript=True)
+# Refereed Articles
+
+### Start `under review` section (denoted with manuscript=True)
 
   -
-    title: "Neighborhood Change in the United States: A Comparison of Sequence Analysis Methods"
-    author:        "Wei Kang, Sergio Rey, Levi Wolf, **Elijah Knaap** & Su Han"
-    journal:       "Computers, Environment, and Urban Systems"
-    date:          "Under Review"
-    twopage:       true
-    public:        true
-    manuscript:    true
-
-  -
-    title: "The Dynamics of Urban Neighborhoods: A Survey of Approaches for Modeling Socio-Spatial Structure"
+    title: "Modeling Urban Neighborhoods: A Survey of Approaches for Identifying Socio-Spatial Structure"
     author:        "**Elijah Knaap**, Levi Wolf, Sergio Rey, Su Han & Wei Kang"
     journal:       "Geography Compass"
     date:          "Under Review"
@@ -98,53 +91,38 @@ publication:
     manuscript:    true
 
   -
-    title: "Mi Casa no es Su Casa: Transit-Induced Gentrification and the Fight for Equitable Development in an Inner-Ring, Immigrant Suburb."
-    author:        "Willow Lung-Amam, Rolf Pendall & **Elijah Knaap**"
-    journal:       "Journal of Planning Education & Research"
+   title: "An open-source framework for non-Spatial and Spatial segregation measures: the PySAL segregation module"
+   author:        "Renan Xavier Cortes, Sergio Rey, **Elijah Knaap**, & Levi Wolf"
+   journal:       "Journal of Computational Social Science"
+   date:          "Under Review"
+   twopage:       true
+   public:        true
+   manuscript:    true
+
+  -
+    title: "Learning Geographical Manifolds: A Kernel Trick for Geographical Machine Learning"
+    author:        "Levi Wolf & **Elijah Knaap**"
+    journal:       "Geographical Analysis"
     date:          "Under Review"
     twopage:       true
     public:        true
     manuscript:    true
 
   -
-    title: "Machines Learn the Chicago School: A Spatiotemporal Markov Model of Gentrification & Neighborhood Change"
-    author:        "**Elijah Knaap**, Nicholas Finio, Wei Kang, Levi Wolf, & Sergio Rey"
-    journal: "Environment and Planning B: Urban Analytics and City Science"
-    date:          "In Progress"
-    twopage:       true
-    public:        true
-    manuscript:    true
-
-  -
-    title: "Geosilhouettes: Spatially-Aware Measures of Geographic Cluster Certainty"
-    author:        "Levi Wolf, **Elijah Knaap** & Sergio Rey"
-    journal:       Environment and Planning B
+    title: "A Visual Analytics System for Space-Time Dynamics of Regional Income Distributions Utilizing Animated Flow Maps and Rank-based Markov Chains"
+    author:        "Sergio Rey, Su Han, Wei Kang, **Elijah Knaap**, & Renan Cortes"
+    journal:       "Geographical Analysis"
     date:          "Under Review"
     twopage:       true
     public:        true
     manuscript:    true
 
 
-#  -
-#    title: "Old Wine in New Bottles: Moving Desktop Based Geovisual Analytics to the Web In Python"
-#    author:       "Sergio J. Rey, Su Han, Renan Xavier Cortes, Wei Kang, & **Elijah Knaap**"
-#    journal:      "In Progress"
-#    twopage:      true
-#    public:       true
-#    manuscript:   true 
-#
-#  -
-#    title: "Gentrification With a White Picket Fence: Neighborhood Upgrading in US Suburbs, 1980-2016"
-#    author:       "Nicholas Finio & **Elijah Knaap**"
-#    journal:      "In Progress"
-#    twopage:      true
-#    public:       true
-#    manuscript:   true
-#
   -
-    title:         "Spatial Informatics for Measuring Urban Inequality in International Contexts"
-    author:        "**Elijah Knaap**, Gerrit Knaap, Nicholas Finio & Sergio Rey"
-    journal:       "In Progress"
+    title: "Neighborhood Change in the United States: A Comparison of Sequence Analysis Methods"
+    author:        "Wei Kang, Sergio Rey, Levi Wolf, **Elijah Knaap** & Su Han"
+    journal:       "Computers, Environment, and Urban Systems"
+    date:          "Under Review"
     twopage:       true
     public:        true
     manuscript:    true
@@ -161,20 +139,60 @@ publication:
   - 
     title:         "Comparative Spatial Segregation Analytics"
     author:        "Sergio Rey, Renan Xavier Cortes & **Elijah Knaap**"
-    journal:       "In Progress"  
-    twopage:       true
-    public:        true
-    manuscript:    true
-  - 
-    title:         "How do cities flow in an emergency? Tracing human mobility patterns during a natural disaster with big data and geospatial data science" 
-    author:        "Su Yeon Han1, Ming-Hsiang Tsou, **Elijah Knaap**, Sergio Rey, and Guofeng Cao"
-    journal:       "Urban Science"
+    journal:       "Sociological Methodology"
     date:          "Under Review"
     twopage:       true
     public:        true
     manuscript:    true
 
+  - 
+    title:         "CATSLife: A study of lifespan behavioral development and cognitive functioning"
+    author:        "Sally J. Wadsworth, Robin P. Corley, Elizabeth Munoz, B. Paige Trubenstein, **Elijah Knaap**,  John C. DeFries, Robert Plomin, Chandra A. Reynolds"
+    journal:       "Twin Research and Human Genetics"
+    date:          "Under Review"
+    twopage:       true
+    public:        true
+    manuscript:    true
 
+### Start `in progress` section (also denoted with manuscript=True)
+### this is just for my own organization
+
+  -
+    title: "Urban Income Mobility as a Muiltifaceted Concept in the United States"
+    author:        "Wei Kang, Sergio Rey, & **Elijah Knaap**"
+    journal:       "Geographical Analysis"
+    date:          "In Progress"
+    twopage:       true
+    public:        true
+    manuscript:    true
+
+
+  -
+    title:         "Machines Learn the Chicago School: A Spatiotemporal Markov Model of Gentrification & Neighborhood Change"
+    author:        "**Elijah Knaap**, Nicholas Finio, Wei Kang, Levi Wolf, & Sergio Rey"
+    journal:       "Environment and Planning B: Urban Analytics and City Science"
+    date:          "In Progress"
+    twopage:       true
+    public:        true
+    manuscript:    true
+
+
+  -
+    title:         "Spatial Informatics for Measuring Urban Inequality in International Contexts"
+    author:        "**Elijah Knaap**, Gerrit Knaap, Nicholas Finio & Sergio Rey"
+    journal:       "In Progress"
+    twopage:       true
+    public:        true
+    manuscript:    true
+
+#  -
+#    title: "Gentrification With a White Picket Fence: Neighborhood Upgrading in US Suburbs, 1980-2016"
+#    author:       "Nicholas Finio & **Elijah Knaap**"
+#    journal:      "In Progress"
+#    twopage:      true
+#    public:       true
+#    manuscript:   true
+#
 
 #    title:        "Who Moves to Opportunity? Spatial Returns to Housing Assistance and the Effect of Specialized Mobility Programs"
 #    author:       "**Elijah Knaap**"
@@ -192,9 +210,35 @@ publication:
 #    manuscript:   true
 
 
+### Start `forthcoming` section
+
+
+  -
+    title: "Mi Casa no es Su Casa: Transit-Induced Gentrification and the Fight for Equitable Development in an Inner-Ring, Immigrant Suburb"
+    author:        "Willow Lung-Amam, Rolf Pendall & **Elijah Knaap**"
+    journal:       "Journal of Planning Education & Research"
+    date:          "Forthcoming"
+    twopage:       true
+    peer_reviewed: true
+    academic:      true
+
+
 ### Start `published` section
 
-# Refereed Articles
+  - 
+    citekey:       Wolf2019
+    academic:      true
+    peer_reviewed: true
+  - 
+    citekey:       Wadsworth2019
+    academic:      true
+    peer_reviewed: true
+ 
+  - 
+    citekey:       Han2019
+    academic:      true
+    peer_reviewed: true
+ 
   - 
     citekey:       Finio2019
     academic:      true
@@ -269,6 +313,7 @@ publication:
     report:        true
 
 
+
 invited_talk:
 
   -
@@ -292,7 +337,24 @@ invited_talk:
     place:         Washington, DC
     twopage:       true
 
+
 conference:
+
+-
+  title:           "Comparing Spatial Inequality in International Contexts"
+  author:          "Elijah Knaap"
+  host:            American Association of Geographers
+  place:           Washington, D.C.
+  date:            May, 2019
+  twopage:         true
+
+-
+  title:           "Modeling Neighborhoods Through Time & Space with Geosnap, The GeoSpatial Neighborhood Analysis Package"
+  author:          "Elijah Knaap"
+  host:            Urban Affairs Association
+  place:           Los Angeles, California
+  date:            April, 2019
+  twopage:         true
 
 -
   title:           "Spatio-temporal Analysis of Socioeconomic Neighborhoods"
