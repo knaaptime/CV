@@ -145,14 +145,6 @@ publication:
     public:        true
     manuscript:    true
 
-  - 
-    title:         "CATSLife: A study of lifespan behavioral development and cognitive functioning"
-    author:        "Sally J. Wadsworth, Robin P. Corley, Elizabeth Munoz, B. Paige Trubenstein, **Elijah Knaap**,  John C. DeFries, Robert Plomin, Chandra A. Reynolds"
-    journal:       "Twin Research and Human Genetics"
-    date:          "Under Review"
-    twopage:       true
-    public:        true
-    manuscript:    true
 
 ### Start `in progress` section (also denoted with manuscript=True)
 ### this is just for my own organization
@@ -213,27 +205,23 @@ publication:
 ### Start `forthcoming` section
 
 
-  -
-    title: "Mi Casa no es Su Casa: Transit-Induced Gentrification and the Fight for Equitable Development in an Inner-Ring, Immigrant Suburb"
-    author:        "Willow Lung-Amam, Rolf Pendall & **Elijah Knaap**"
-    journal:       "Journal of Planning Education & Research"
-    date:          "Forthcoming"
-    twopage:       true
-    peer_reviewed: true
-    academic:      true
-
 
 ### Start `published` section
-
   - 
+    citekey:       Lung-Amam2019
+    academic:      true
+    peer_reviewed: true
+
+  -
     citekey:       Wolf2019
     academic:      true
     peer_reviewed: true
+
   - 
     citekey:       Wadsworth2019
     academic:      true
     peer_reviewed: true
- 
+
   - 
     citekey:       Han2019
     academic:      true
