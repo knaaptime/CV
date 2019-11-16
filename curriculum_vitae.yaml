@@ -91,15 +91,6 @@ publication:
     manuscript:    true
 
   -
-   title: "An open-source framework for non-Spatial and Spatial segregation measures: the PySAL segregation module"
-   author:        "Renan Xavier Cortes, Sergio Rey, **Elijah Knaap**, & Levi Wolf"
-   journal:       "Journal of Computational Social Science"
-   date:          "Under Review"
-   twopage:       true
-   public:        true
-   manuscript:    true
-
-  -
     title: "Learning Geographical Manifolds: A Kernel Trick for Geographical Machine Learning"
     author:        "Levi Wolf & **Elijah Knaap**"
     journal:       "Geographical Analysis"
@@ -127,14 +118,6 @@ publication:
     public:        true
     manuscript:    true
 
-  -
-    title:         "Adaptive Choropleth Mapper: A Web-based Tool for Synchronous Exploration of Multiple Variables at Multiple Spatial Scales"
-    author:        "Su Han, Sergio Rey, **Elijah Knaap**, Wei Kang, Levi Wolf"
-    journal:       "Spatial Information Science"
-    date:          "Under Review"
-    twopage:       true
-    public:        true
-    manuscript:    true
 
   - 
     title:         "Comparative Spatial Segregation Analytics"
@@ -207,6 +190,19 @@ publication:
 
 
 ### Start `published` section
+  -
+    title: "An open-source framework for non-Spatial and Spatial segregation measures: the PySAL segregation module"
+    author:        "Renan Xavier Cortes, Sergio Rey, **Elijah Knaap**, & Levi Wolf"
+    journal:       "Journal of Computational Social Science"
+    date:          "Forthcoming"
+    twopage:       true
+    peer_reviewed: true
+    academic: true
+  - 
+    citekey:       Han2019a
+    academic:      true
+    peer_reviewed: true
+
   - 
     citekey:       Lung-Amam2019
     academic:      true
@@ -300,7 +296,26 @@ publication:
     public:        true
     report:        true
 
+# Software
+software:
+    
+  -
+    citekey:       Knaap2019
+    twopage:       true
+    academic:        true
+    software:        true
 
+  -
+    citekey:       Cortes2019
+    twopage:       true
+    academic:        true
+    software:        true
+ 
+  -
+    citekey:       Kang2019
+    twopage:       true
+    academic:        true
+    software:        true
 
 invited_talk:
 
