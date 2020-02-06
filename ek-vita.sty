@@ -33,8 +33,8 @@
 %% Fonts and colours
 %% ------------------------------------------------------------------------
 %% needed for xelatex to work
-%\usepackage{fontspec}
-%\usepackage{xunicode}
+\usepackage{fontspec}
+\usepackage{xunicode}
 
 %% color for the links
 \usepackage[usenames,dvipsnames]{xcolor}
@@ -42,9 +42,17 @@
 \definecolor{ImperialLightBlue}{rgb}{0.545,0.682,0.8}
 \definecolor{navy}{HTML}{00004d}
 
-\setromanfont[Mapping={tex-text}]{Fira Sans Condensed}
-\setsansfont[Mapping=tex-text,Scale=1.1,Colour=ImperialBlue]{Sunflower Light}
-\setmonofont[Mapping=tex-text,Scale=0.85]{Fira Code} % Consolas, Pragmata, Lucida Console
+\setromanfont[Mapping={tex-text},   FontFace={sb}{n}{Font=bBTrial_Gute Alte Medium}]{bBTrial_Gute Alte Regular}
+\setsansfont[Mapping=tex-text,Scale=1.2,Colour=ImperialBlue]{Sunflower Light}
+\setmonofont[Mapping=tex-text,Scale=0.9]{Iosevka knaaptime} % Consolas, Pragmata, Lucida Console
+\newfontfamily\regsemi[BoldFont={* Medium Italic}]{bBTrial_Gute Alte}
+
+
+
+\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
+\DeclareTextFontCommand{\textsb}{\sbseries}
+
+\renewcommand{\textbf}[1]{\textsb}
 
 %% ------------------------------------------------------------------------
 %% Header and footer
@@ -196,6 +204,9 @@
 %% ------------------------------------------------------------------------
 %%   Bibliography formatting
 %% ------------------------------------------------------------------------
+\providecommand*\plauthorhl[1]{%
+\sbseries{#1}%
+}
 
 
 %\usepackage[uniquename=init,dashed=false,doi=false,isbn=false,backend=biber]{biblatex-chicago}
@@ -205,21 +216,19 @@
 %\usepackage[bibstyle=iest, citestyle=iest, isbn=false, backend=biber]{biblatex}
 %\usepackage[citestyle=authoryear,notes,natbib,isbn=false,backend=biber,url=false,numbermonth=true, maxbibnames=20]{biblatex-chicago}
 %\usepackage[citestyle=verbose,bibstyle=bwl-FU,maxnames=20,natbib,isbn=false,sorting=ynt,backend=biber]{biblatex}
-\usepackage[citestyle=verbose, bibstyle=publist, maxnames=20, natbib, isbn=false, backend=biber, plauthorhandling=highlight, boldyear=false,plnumbered=true]{biblatex}
+\usepackage[citestyle=verbose, bibstyle=publist, maxnames=20, natbib, isbn=false, backend=biber, plauthorhandling=highlight, boldyear=false]{biblatex}
 \plauthorname[Elijah]{Knaap}
 \plauthorname[eli]{knaap}
 \plauthorname[Eli]{Knaap}
 
 % consider using marginyear=true
-\renewcommand*\plmarginyear[1]{\raggedleft\small{#1}}
-
-
+%\renewcommand*\plmarginyear[1]{\raggedleft\small{#1}}
 
 \DeclareFieldFormat{url}{\url{#1}}
 \DeclareFieldFormat[article]{pages}{#1}
 \DeclareFieldFormat[inproceedings]{pages}{\lowercase{pp.}#1}
 \DeclareFieldFormat[incollection]{pages}{\lowercase{pp.}#1}
-\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
+%\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
 \DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
 \DeclareFieldFormat[article]{title}{\MakeCapital{#1}}
 \DeclareFieldFormat[article]{url}{}
