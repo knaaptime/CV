@@ -42,17 +42,17 @@
 \definecolor{ImperialLightBlue}{rgb}{0.545,0.682,0.8}
 \definecolor{navy}{HTML}{00004d}
 
-\setromanfont[Mapping={tex-text},   FontFace={sb}{n}{Font=bBTrial_Gute Alte Medium}]{bBTrial_Gute Alte Regular}
+\setromanfont[Mapping={tex-text}, FontFace={sb}{n}{Font=bBTrial_Gute Alte Medium}]{bBTrial_Gute Alte Regular}
 \setsansfont[Mapping=tex-text,Scale=1.2,Colour=ImperialBlue]{Sunflower Light}
 \setmonofont[Mapping=tex-text,Scale=0.9]{Iosevka knaaptime} % Consolas, Pragmata, Lucida Console
-\newfontfamily\regsemi[BoldFont={* Medium Italic}]{bBTrial_Gute Alte}
-
-
 
 \DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
 \DeclareTextFontCommand{\textsb}{\sbseries}
 
-\renewcommand{\textbf}[1]{\textsb}
+\let\oldtextbf\textbf
+\renewcommand\textbf[1]{\textsb{#1}}
+
+%\renewcommand{\textbf}[1]{\textsb}
 
 %% ------------------------------------------------------------------------
 %% Header and footer
@@ -220,6 +220,7 @@
 \plauthorname[Elijah]{Knaap}
 \plauthorname[eli]{knaap}
 \plauthorname[Eli]{Knaap}
+\plauthorname[*Elijah]{Knaap*}
 
 % consider using marginyear=true
 %\renewcommand*\plmarginyear[1]{\raggedleft\small{#1}}
