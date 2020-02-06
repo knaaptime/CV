@@ -52,6 +52,7 @@
 \let\oldtextbf\textbf
 \renewcommand\textbf[1]{\textsb{#1}}
 
+
 %\renewcommand{\textbf}[1]{\textsb}
 
 %% ------------------------------------------------------------------------
@@ -125,13 +126,13 @@
   }
 }
 
+
+
 \def\maketitle{
   \thispagestyle{myplain}
 
   % Pull header block up
-  \vspace*{-6em}
-
-
+  \vspace*{-6em}  
   \begin{minipage}[t]{3.5in}
     \flushright {\footnotesize \@address}
   \end{minipage}
@@ -150,12 +151,13 @@
   \bigskip
   \bigskip
 
+  {\setromanfont[Mapping={tex-text}]{bBTrial_Quist}
+
   %% Name
   \noindent{\LARGE\scshape{\@title\ \@name}} {\scriptsize \textsc{\@postnoms}}\\
   \bigskip
-  \bigskip
 
-}
+}}
 
 %%------------------------------------------------------------------------
 %% Section styling
