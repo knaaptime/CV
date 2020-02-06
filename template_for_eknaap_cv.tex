@@ -110,7 +110,7 @@ $endif$
 $endif$
 $endfor$
 
-%\vspace{0.05in}
+\vspace{0.05in}
 \subsection{Technical Reports}
 
 $for(publication)$
@@ -127,6 +127,24 @@ $endif$
 $endif$
 $endfor$
 
+\vspace{0.05in}
+\subsection{Software}
+
+$for(software)$
+$if(software.twopage)$
+$if(software.software)$
+$if(software.citekey)$
+\ind \cite{$software.citekey$}.\\[.2cm]
+$else$
+$if(software.author)$$software.author$,$endif$
+\ind ``$software.title$.'' $if(software.journal)$\textit{$software.journal$}$if(software.journal_info)$, $software.journal_info$$endif$.$endif$ $software.date$$if(software.description)$. $software.description$$endif$.\\[.2cm]
+$endif$
+% End of block for in progress
+$endif$
+$endif$
+$endfor$
+
+\vspace{0.05in}
 \subsection{Manuscripts in Progress}
 
 $for(publication)$
@@ -144,23 +162,6 @@ $endif$
 $endfor$
 
 %\vspace{0.09in}
-
-\subsection{Software}
-
-$for(software)$
-$if(software.twopage)$
-$if(software.software)$
-$if(software.citekey)$
-\ind \cite{$software.citekey$}.\\[.2cm]
-$else$
-$if(software.author)$$software.author$,$endif$
-\ind ``$software.title$.'' $if(software.journal)$\textit{$software.journal$}$if(software.journal_info)$, $software.journal_info$$endif$.$endif$ $software.date$$if(software.description)$. $software.description$$endif$.\\[.2cm]
-$endif$
-% End of block for in progress
-$endif$
-$endif$
-$endfor$
-
 
 \section{awards}
 

@@ -82,6 +82,15 @@ publication:
 ### Start `under review` section (denoted with manuscript=True)
 
   -
+    title: "Efficient Regionalization for Spatially Explicit Neighborhood Delineation"
+    author:        "Ran Wei, Sergio Rey, & **Elijah Knaap**"
+    journal:       "International Journal of Geographic Information Science"
+    date:          "Under Review"
+    twopage:       true
+    public:        true
+    manuscript:    true
+
+  -
     title: "Modeling Urban Neighborhoods: A Survey of Approaches for Identifying Socio-Spatial Structure"
     author:        "**Elijah Knaap**, Levi Wolf, Sergio Rey, Su Han & Wei Kang"
     journal:       "Geography Compass"
@@ -133,19 +142,19 @@ publication:
 ### this is just for my own organization
 
   -
-    title: "Urban Income Mobility as a Muiltifaceted Concept in the United States"
+    title: "Urban Income Mobility Patterns in the United States: 1980-2010"
     author:        "Wei Kang, Sergio Rey, & **Elijah Knaap**"
-    journal:       "Geographical Analysis"
-    date:          "In Progress"
+    journal:       "Urban Studies"
+    date:          "Under Review"
     twopage:       true
     public:        true
     manuscript:    true
 
 
   -
-    title:         "Machines Learn the Chicago School: A Spatiotemporal Markov Model of Gentrification & Neighborhood Change"
-    author:        "**Elijah Knaap**, Nicholas Finio, Wei Kang, Levi Wolf, & Sergio Rey"
-    journal:       "Environment and Planning B: Urban Analytics and City Science"
+    title:         "Machines Learn the Chicago School: Modeling Multidimensional Neighborhood Change as a Spatial Markov Process"
+    author:        "**Elijah Knaap**, Levi Wolf, & Sergio Rey"
+    journal:       "Urban Studies"
     date:          "In Progress"
     twopage:       true
     public:        true
@@ -191,13 +200,10 @@ publication:
 
 ### Start `published` section
   -
-    title: "An open-source framework for non-Spatial and Spatial segregation measures: the PySAL segregation module"
-    author:        "Renan Xavier Cortes, Sergio Rey, **Elijah Knaap**, & Levi Wolf"
-    journal:       "Journal of Computational Social Science"
-    date:          "Forthcoming"
-    twopage:       true
+    citekey: Cortes2019a
     peer_reviewed: true
     academic: true
+
   - 
     citekey:       Han2019a
     academic:      true
@@ -312,7 +318,7 @@ software:
     software:        true
  
   -
-    citekey:       Kang2019
+    citekey:       Kang-giddy2019
     twopage:       true
     academic:        true
     software:        true
@@ -561,18 +567,27 @@ service:
       item:  "Member: American Association of Geographers"
       date:        2013 -
       twopage:     true
+
     -
       item:  "Member: Association of Collegiate Schools of Planning"
       date:        2013 -
       twopage:     true
+
     -
       item:  "Member: American Sociological Association"
       date:        2015 -
       twopage:     true
+
     -
       item:  "Member: Regional Science Association International"
       date:        2018 -
       twopage:     true
+
+    -
+      item:  "Peer Reviewer: NSF -- Methodology, Measurement, & Statistics Program"
+      date:        2019 -
+      twopage:     true
+
 
 competencies:
 -
