@@ -64,16 +64,16 @@ appointment:
 
 education:
   -
-    degree:        Ph.D. -  Urban Studies and Planning
-    place:         University of Maryland
+    degree:        Ph.D. -  University of Maryland 
+    place:         Urban and Regional Planning & Design
     date:          2016
   -
-    degree:        M.A.  -  Community Planning
-    place:         University of Maryland
+    degree:        M.A.  -  University of Maryland
+    place:         Community Planning
     date:          2013
   -
-    degree:        B.A.  -  Sociology
-    place:         University of Maryland
+    degree:        B.A.  -  University of Maryland
+    place:         Sociology
     date:          2011
 
 publication:

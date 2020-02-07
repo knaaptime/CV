@@ -151,7 +151,7 @@
   \bigskip
   \bigskip
 
-  {\setromanfont[Mapping={tex-text}]{bBTrial_Quist}
+  {\setromanfont[Mapping={tex-text}]{bBTrial_Quist Medium}
 
   %% Name
   \noindent{\LARGE\scshape{\@title\ \@name}} {\scriptsize \textsc{\@postnoms}}\\
@@ -210,6 +210,7 @@
 \sbseries{#1}%
 }
 
+\newcommand*\publistbasestyle{authoryear}
 
 %\usepackage[uniquename=init,dashed=false,doi=false,isbn=false,backend=biber]{biblatex-chicago}
 % \usepackage[uniquename=init, isbn=false,backend=biber]{biblatex-apa}
@@ -218,11 +219,10 @@
 %\usepackage[bibstyle=iest, citestyle=iest, isbn=false, backend=biber]{biblatex}
 %\usepackage[citestyle=authoryear,notes,natbib,isbn=false,backend=biber,url=false,numbermonth=true, maxbibnames=20]{biblatex-chicago}
 %\usepackage[citestyle=verbose,bibstyle=bwl-FU,maxnames=20,natbib,isbn=false,sorting=ynt,backend=biber]{biblatex}
-\usepackage[citestyle=verbose, bibstyle=publist, maxnames=20, natbib, isbn=false, backend=biber, plauthorhandling=highlight, boldyear=false]{biblatex}
+\usepackage[citestyle=verbose, bibstyle=publist, maxnames=20, natbib, isbn=false, bibencoding=inputenc, backend=biber, plauthorhandling=highlight, boldyear=false]{biblatex}
 \plauthorname[Elijah]{Knaap}
 \plauthorname[eli]{knaap}
 \plauthorname[Eli]{Knaap}
-\plauthorname[*Elijah]{Knaap*}
 
 % consider using marginyear=true
 %\renewcommand*\plmarginyear[1]{\raggedleft\small{#1}}
